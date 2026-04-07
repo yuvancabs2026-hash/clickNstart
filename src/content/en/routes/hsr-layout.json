@@ -1,0 +1,30 @@
+{
+    "metaTitle": "Wheelchair Taxi in HSR Layout | WheelchairTaxi Bangalore",
+    "metaDescription": "Pre-book a reliable wheelchair taxi in HSR Layout. Our accessible cabs have an automatic hydraulic lift for safe, easy boarding and comfortable travel.",
+    "h1": "Wheelchair Taxi in HSR Layout",
+    "destination": "HSR Layout",
+    "slug": "hsr-layout",
+    "travelTime": "Available in all HSR Layout sectors",
+    "distance": "Servicing 27th Main, Silk Board, and Agara",
+    "pricingEstimate": "Based on distance (Base fare applies)",
+    "landmarks": [
+        "Agara Lake",
+        "BDA Complex",
+        "Silk Board Junction"
+    ],
+    "description": "Traveling around HSR Layout is safe and dignified with our wheelchair taxi service. The automatic hydraulic lift fitted in our cabs means zero physical lifting is required to board.",
+    "cta": {
+        "heading": "Book a Ride from HSR Layout",
+        "subheading": "Get a wheelchair accessible cab in HSR Layout quickly via WhatsApp.",
+        "whatsapp": {
+            "label": "Book via WhatsApp",
+            "href": "https://www.yuvancabs.com/booking",
+            "ariaLabel": "Book your wheelchair taxi via WhatsApp"
+        },
+        "phone": {
+            "label": "+91 81058 25544",
+            "href": "tel:+918105825544",
+            "ariaLabel": "Call us to book a wheelchair taxi"
+        }
+    }
+}

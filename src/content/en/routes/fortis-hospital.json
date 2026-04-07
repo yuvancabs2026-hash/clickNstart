@@ -1,0 +1,30 @@
+{
+    "metaTitle": "Wheelchair Taxi to Fortis Hospital | WheelchairTaxi Bangalore",
+    "metaDescription": "Book a wheelchair taxi to Fortis Hospital, Bannerghatta Road. Comfortable, accessible cabs with hydraulic lifts for reliable medical transport.",
+    "h1": "Wheelchair Taxi to Fortis Hospital",
+    "destination": "Fortis Hospital",
+    "slug": "fortis-hospital",
+    "travelTime": "30-50 mins from Central Bangalore",
+    "distance": "approx. 15 km",
+    "pricingEstimate": "Starting at \u20b91,199",
+    "landmarks": [
+        "Bannerghatta Road",
+        "Bilekahalli",
+        "JP Nagar"
+    ],
+    "description": "Getting to Fortis Hospital is easy and safe with our wheelchair accessible taxis. Our professional drivers and hydraulic-equipped vehicles guarantee a smooth ride.",
+    "cta": {
+        "heading": "Need a Ride to the Hospital?",
+        "subheading": "Book your wheelchair accessible cab to Fortis Hospital instantly via WhatsApp.",
+        "whatsapp": {
+            "label": "Book via WhatsApp",
+            "href": "https://www.yuvancabs.com/booking",
+            "ariaLabel": "Book your wheelchair taxi to Fortis Hospital via WhatsApp"
+        },
+        "phone": {
+            "label": "+91 81058 25544",
+            "href": "tel:+918105825544",
+            "ariaLabel": "Call us to book a wheelchair taxi"
+        }
+    }
+}

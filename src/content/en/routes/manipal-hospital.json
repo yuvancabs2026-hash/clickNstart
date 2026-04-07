@@ -1,0 +1,30 @@
+{
+    "metaTitle": "Wheelchair Taxi to Manipal Hospital | WheelchairTaxi Bangalore",
+    "metaDescription": "Book a reliable wheelchair taxi to Manipal Hospital, Old Airport Road, Bangalore. Our automatic hydraulic lift cabs ensure safe medical transport.",
+    "h1": "Wheelchair Taxi to Manipal Hospital",
+    "destination": "Manipal Hospital",
+    "slug": "manipal-hospital",
+    "travelTime": "20-40 mins from Central Bangalore",
+    "distance": "approx. 10 km",
+    "pricingEstimate": "Starting at \u20b9999",
+    "landmarks": [
+        "Old Airport Road",
+        "Domlur",
+        "Indiranagar"
+    ],
+    "description": "We provide specialized, reliable, and accessible transport to Manipal Hospital, ensuring a stress-free journey for routine check-ups or emergencies. Our vehicles come equipped with an automatic hydraulic lift, accommodating all types of wheelchairs securely.",
+    "cta": {
+        "heading": "Need a Ride to the Hospital?",
+        "subheading": "Book your wheelchair accessible cab to Manipal Hospital instantly via WhatsApp.",
+        "whatsapp": {
+            "label": "Book via WhatsApp",
+            "href": "https://www.yuvancabs.com/booking",
+            "ariaLabel": "Book your wheelchair taxi to Manipal Hospital via WhatsApp"
+        },
+        "phone": {
+            "label": "+91 81058 25544",
+            "href": "tel:+918105825544",
+            "ariaLabel": "Call us to book a wheelchair taxi"
+        }
+    }
+}

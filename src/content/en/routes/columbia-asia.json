@@ -1,0 +1,30 @@
+{
+    "metaTitle": "Wheelchair Taxi to Columbia Asia Hospital | WheelchairTaxi Bangalore",
+    "metaDescription": "Book a reliable wheelchair taxi to Columbia Asia Hospital in Bangalore. Our cabs are equipped with automatic hydraulic lifts for comfortable medical transport.",
+    "h1": "Wheelchair Taxi to Columbia Asia Hospital",
+    "destination": "Columbia Asia Hospital",
+    "slug": "columbia-asia",
+    "travelTime": "20-40 mins from Central Bangalore",
+    "distance": "approx. 10 km",
+    "pricingEstimate": "Starting at \u20b9999",
+    "landmarks": [
+        "Yeshwanthpur",
+        "Hebbal",
+        "Outer Ring Road"
+    ],
+    "description": "Ensure safe and comfortable travel to Columbia Asia Hospital with our specialized wheelchair accessible taxi service. Vehicles feature automatic hydraulic lifts.",
+    "cta": {
+        "heading": "Need a Ride to Columbia Asia?",
+        "subheading": "Book your wheelchair accessible cab instantly via WhatsApp.",
+        "whatsapp": {
+            "label": "Book via WhatsApp",
+            "href": "https://www.yuvancabs.com/booking",
+            "ariaLabel": "Book your wheelchair taxi via WhatsApp"
+        },
+        "phone": {
+            "label": "+91 81058 25544",
+            "href": "tel:+918105825544",
+            "ariaLabel": "Call us to book a wheelchair taxi"
+        }
+    }
+}

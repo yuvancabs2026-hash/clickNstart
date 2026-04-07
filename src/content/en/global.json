@@ -1,0 +1,115 @@
+{
+    "nav": {
+        "brand": "CLICK-N-START",
+        "tagline": "Bengaluru",
+        "navLinks": [
+            {
+                "label": "Home",
+                "href": "/"
+            },
+            {
+                "label": "Services",
+                "href": "/services"
+            },
+            {
+                "label": "About",
+                "href": "/about"
+            },
+            {
+                "label": "Blog",
+                "href": "/blog"
+            },
+            {
+                "label": "Contact",
+                "href": "/contact"
+            }
+        ],
+        "ctaLabel": "Book a Ride",
+        "ctaLabelShort": "Book",
+        "statusLabel": "Driver Available",
+        "whatsappHref": "https://www.yuvancabs.com/booking"
+    },
+    "footer": {
+        "brand": "CLICK-N-START",
+        "tagline": "Empowering mobility for everyone in Bengaluru. Safety, comfort, and dignity in every ride.",
+        "phone": "+91 81058 25544",
+        "columns": [
+            {
+                "title": "Service Areas",
+                "links": [
+                    {
+                        "label": "Indiranagar",
+                        "href": "/routes/indiranagar"
+                    },
+                    {
+                        "label": "Koramangala",
+                        "href": "/routes/koramangala"
+                    },
+                    {
+                        "label": "Whitefield",
+                        "href": "/routes/whitefield"
+                    },
+                    {
+                        "label": "Jayanagar",
+                        "href": "/routes/jayanagar"
+                    },
+                    {
+                        "label": "HSR Layout",
+                        "href": "/routes/hsr-layout"
+                    }
+                ]
+            },
+            {
+                "title": "Company",
+                "links": [
+                    {
+                        "label": "About Us",
+                        "href": "/about"
+                    },
+                    {
+                        "label": "Services",
+                        "href": "/services"
+                    },
+                    {
+                        "label": "Blog",
+                        "href": "/blog"
+                    },
+                    {
+                        "label": "FAQ",
+                        "href": "/faq"
+                    },
+                    {
+                        "label": "Book a Ride",
+                        "href": "/booking"
+                    }
+                ]
+            },
+            {
+                "title": "Support",
+                "links": [
+                    {
+                        "label": "Contact",
+                        "href": "/contact"
+                    },
+                    {
+                        "label": "Privacy Policy",
+                        "href": "/privacy-policy"
+                    },
+                    {
+                        "label": "Terms of Service",
+                        "href": "/terms-of-service"
+                    },
+                    {
+                        "label": "FAQ",
+                        "href": "/faq"
+                    }
+                ]
+            }
+        ],
+        "copyright": "© 2026 YuvanCabs Bengaluru. All rights reserved."
+    },
+    "whatsapp": {
+        "href": "https://wa.me/918105825544",
+        "ariaLabel": "Chat on WhatsApp"
+    }
+}

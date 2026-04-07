@@ -1,0 +1,30 @@
+{
+    "metaTitle": "Wheelchair Taxi in Whitefield | WheelchairTaxi Bangalore",
+    "metaDescription": "Need a wheelchair taxi in Whitefield? Book our reliable, accessible transport service equipped with premium hydraulic lifts for safe travel.",
+    "h1": "Wheelchair Taxi in Whitefield",
+    "destination": "Whitefield",
+    "slug": "whitefield",
+    "travelTime": "Available in Whitefield, ITPL, and nearby areas",
+    "distance": "Servicing Whitefield Main Road, Marathahalli, and Brookefield",
+    "pricingEstimate": "Based on distance (Base fare applies)",
+    "landmarks": [
+        "ITPL",
+        "Phoenix Marketcity",
+        "Hope Farm Junction"
+    ],
+    "description": "Navigating Whitefield in a wheelchair is easy with our specially designed transport service. Our wheelchair taxis offer convenient automatic hydraulic lifts, making entry and exit effortless.",
+    "cta": {
+        "heading": "Book a Ride from Whitefield",
+        "subheading": "Get a wheelchair accessible taxi in Whitefield via WhatsApp today.",
+        "whatsapp": {
+            "label": "Book via WhatsApp",
+            "href": "https://www.yuvancabs.com/booking",
+            "ariaLabel": "Book your wheelchair taxi via WhatsApp"
+        },
+        "phone": {
+            "label": "+91 81058 25544",
+            "href": "tel:+918105825544",
+            "ariaLabel": "Call us to book a wheelchair taxi"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "metaTitle": "Wheelchair Taxi to Narayana Health City | WheelchairTaxi Bangalore",
+    "metaDescription": "Book a reliable wheelchair taxi to Narayana Health City, Hosur Road. Our automatic hydraulic lift cabs ensure comfortable and safe medical transport.",
+    "h1": "Wheelchair Taxi to Narayana Health City",
+    "destination": "Narayana Health City",
+    "slug": "narayana-health",
+    "travelTime": "45-60 mins from Central Bangalore",
+    "distance": "approx. 25 km",
+    "pricingEstimate": "Starting at \u20b91,499",
+    "landmarks": [
+        "Hosur Road",
+        "Bommasandra",
+        "Electronic City"
+    ],
+    "description": "Traveling to Narayana Health City shouldn't be stressful. We provide accessible transport with fully equipped wheelchair taxis, featuring hydraulic lifts for safety and convenience.",
+    "cta": {
+        "heading": "Need a Ride to Narayana Health?",
+        "subheading": "Book your wheelchair accessible cab to Narayana Health City instantly via WhatsApp.",
+        "whatsapp": {
+            "label": "Book via WhatsApp",
+            "href": "https://www.yuvancabs.com/booking",
+            "ariaLabel": "Book your wheelchair taxi to Narayana Health City via WhatsApp"
+        },
+        "phone": {
+            "label": "+91 81058 25544",
+            "href": "tel:+918105825544",
+            "ariaLabel": "Call us to book a wheelchair taxi"
+        }
+    }
+}

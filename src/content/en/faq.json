@@ -1,0 +1,68 @@
+{
+    "heading": "Frequently Asked Questions",
+    "subheading": "Everything you need to know about our wheelchair accessible taxi service in Bangalore.",
+    "items": [
+        {
+            "question": "How much does a wheelchair taxi cost in Bangalore?",
+            "answer": "Our pricing depends on the distance and type of trip. City rides start from \u20b9500 for short distances. Airport transfers, hospital trips, and outstation rides have transparent per-km pricing. Contact us via WhatsApp for an instant quote \u2014 we'll provide the exact fare before you book."
+        },
+        {
+            "question": "How do I book a wheelchair taxi with YuvanCabs?",
+            "answer": "Booking is simple! Send us a message on WhatsApp with your pickup location, destination, and preferred date/time. You can also use our online booking form or call us directly at +91 81058 25544. We confirm bookings within 15 minutes."
+        },
+        {
+            "question": "What makes your hydraulic lift different from manual ramps?",
+            "answer": "Unlike manual foldable ramps used by other services, our automatic hydraulic lift platform raises and lowers at the press of a button. This means zero physical lifting for the passenger or caregiver, no steep inclines to navigate, and a 300kg weight capacity that handles all wheelchair types safely."
+        },
+        {
+            "question": "Is the wheelchair secured inside the taxi?",
+            "answer": "Absolutely. We use a certified 4-point wheelchair locking system inside the cabin. Once your wheelchair is on the platform and inside the vehicle, it's locked securely in place for the entire journey. Safety is our top priority."
+        },
+        {
+            "question": "Do you provide service to hospitals in Bangalore?",
+            "answer": "Yes! Hospital transport is one of our core services. We regularly serve Manipal Hospital, Narayana Health City, Fortis Hospital, Columbia Asia, and every other major hospital in Bengaluru. We also offer recurring scheduling for regular appointments like dialysis or physiotherapy."
+        },
+        {
+            "question": "Can a caregiver ride along with the wheelchair user?",
+            "answer": "Yes, a caregiver or family member can always ride along at no extra charge. Our vehicles have comfortable seating for companions in addition to the designated wheelchair space."
+        },
+        {
+            "question": "Do you offer airport pickup and drop services?",
+            "answer": "Yes, we provide door-to-door wheelchair accessible transport to and from Kempegowda International Airport (BIAL). We monitor flight arrivals for timely pickups and handle all terminal accessibility needs."
+        },
+        {
+            "question": "What areas in Bangalore do you cover?",
+            "answer": "We cover all of Bengaluru including Indiranagar, Koramangala, Whitefield, Jayanagar, HSR Layout, Electronic City, and every other neighborhood. We also offer outstation trips to Mysuru, Coorg, and other destinations."
+        },
+        {
+            "question": "Are your drivers trained for assisting wheelchair users?",
+            "answer": "All our drivers undergo specialized training in wheelchair assistance, passenger safety, and sensitivity. They're trained to operate the hydraulic lift system, secure the wheelchair properly, and provide respectful, patient service."
+        },
+        {
+            "question": "How far in advance should I book?",
+            "answer": "We recommend booking at least 2-4 hours in advance for city rides and 24 hours for airport transfers or outstation trips. However, we do our best to accommodate last-minute requests based on availability."
+        },
+        {
+            "question": "Is the vehicle sanitized between rides?",
+            "answer": "Yes. Every YuvanCabs vehicle is sanitized daily with hospital-grade disinfectants. We take hygiene seriously \u2014 especially since many of our passengers are visiting hospitals or have health sensitivities."
+        },
+        {
+            "question": "Can I book for a senior citizen who uses a walking frame, not a wheelchair?",
+            "answer": "Absolutely. While our hydraulic lift is designed for wheelchairs, it works equally well for passengers using walkers, walking frames, or those with limited mobility. The platform provides safe, step-free boarding for anyone who needs it."
+        }
+    ],
+    "cta": {
+        "heading": "Still have questions?",
+        "subheading": "Reach out to us on WhatsApp and we'll be happy to help.",
+        "whatsapp": {
+            "label": "Ask on WhatsApp",
+            "href": "https://www.yuvancabs.com/booking",
+            "ariaLabel": "Ask a question on WhatsApp"
+        },
+        "phone": {
+            "label": "+91 81058 25544",
+            "href": "tel:+918105825544",
+            "ariaLabel": "Call us"
+        }
+    }
+}

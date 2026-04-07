@@ -1,0 +1,30 @@
+{
+    "metaTitle": "Wheelchair Taxi in Koramangala | WheelchairTaxi Bangalore",
+    "metaDescription": "Book a wheelchair taxi in Koramangala. Our accessible cabs feature hydraulic lifts, providing safe and comfortable mobility across Bangalore.",
+    "h1": "Wheelchair Taxi in Koramangala",
+    "destination": "Koramangala",
+    "slug": "koramangala",
+    "travelTime": "Available throughout all Koramangala blocks",
+    "distance": "Servicing 80FT Road, 100FT Road, and Inner Ring Road",
+    "pricingEstimate": "Based on distance (Base fare applies)",
+    "landmarks": [
+        "Forum Mall (Nexus)",
+        "Sony World Junction",
+        "National Games Village"
+    ],
+    "description": "Whether you're heading to a clinic, a restaurant, or across town, our wheelchair taxis in Koramangala are ready to help. Every vehicle includes a high-grade automatic hydraulic lift.",
+    "cta": {
+        "heading": "Book a Ride from Koramangala",
+        "subheading": "Get a wheelchair accessible taxi in Koramangala effortlessly via WhatsApp.",
+        "whatsapp": {
+            "label": "Book via WhatsApp",
+            "href": "https://www.yuvancabs.com/booking",
+            "ariaLabel": "Book your wheelchair taxi via WhatsApp"
+        },
+        "phone": {
+            "label": "+91 81058 25544",
+            "href": "tel:+918105825544",
+            "ariaLabel": "Call us to book a wheelchair taxi"
+        }
+    }
+}

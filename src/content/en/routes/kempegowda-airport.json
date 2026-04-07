@@ -1,0 +1,30 @@
+{
+    "metaTitle": "Wheelchair Taxi to Kempegowda Airport (BIAL) | WheelchairTaxi Bangalore",
+    "metaDescription": "Pre-book an airport wheelchair taxi to or from Kempegowda International Airport (BIAL). Reliable pickup and drop-off with automatic hydraulic lift.",
+    "h1": "Wheelchair Taxi to Kempegowda Airport",
+    "destination": "Kempegowda International Airport (BIAL)",
+    "slug": "kempegowda-airport",
+    "travelTime": "60-90 mins from Central Bangalore",
+    "distance": "approx. 40 km",
+    "pricingEstimate": "Starting at \u20b91,999",
+    "landmarks": [
+        "Devanahalli",
+        "Hebbal Flyover",
+        "Airport Road"
+    ],
+    "description": "Travel to and from Kempegowda International Airport with ease. We track flights to ensure timely pickups, and our vehicles are ready to handle all luggage and mobility aids securely.",
+    "cta": {
+        "heading": "Need an Airport Transfer?",
+        "subheading": "Pre-book your wheelchair accessible airport taxi instantly via WhatsApp.",
+        "whatsapp": {
+            "label": "Book via WhatsApp",
+            "href": "https://www.yuvancabs.com/booking",
+            "ariaLabel": "Book your airport wheelchair taxi via WhatsApp"
+        },
+        "phone": {
+            "label": "+91 81058 25544",
+            "href": "tel:+918105825544",
+            "ariaLabel": "Call us to book a wheelchair taxi"
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "title": "Privacy Policy",
+    "lastUpdated": "2026-02-25",
+    "sections": [
+        {
+            "heading": "Introduction",
+            "content": "YuvanCabs Bengaluru (\"we\", \"our\", or \"us\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you use our wheelchair taxi service and website."
+        },
+        {
+            "heading": "Information We Collect",
+            "content": "We collect information you provide when booking a ride, including your name, phone number, pickup and drop-off locations, and any special requirements. When you contact us via WhatsApp or phone, we retain conversation records to improve our service. We do not collect payment information through our website — payments are handled directly with the driver."
+        },
+        {
+            "heading": "How We Use Your Information",
+            "content": "We use your personal information solely to provide and improve our taxi service: processing and fulfilling ride bookings, communicating with you about your rides, improving our service quality, and contacting you about service updates if you've opted in. We never sell, rent, or share your personal data with third parties for marketing purposes."
+        },
+        {
+            "heading": "Data Security",
+            "content": "We implement reasonable security measures to protect your personal information from unauthorized access, alteration, or destruction. However, no method of electronic transmission or storage is 100% secure, and we cannot guarantee absolute security."
+        },
+        {
+            "heading": "WhatsApp Communication",
+            "content": "Our primary booking channel is WhatsApp. When you message us on WhatsApp, your communication is subject to WhatsApp's own privacy policy in addition to ours. We store booking details from WhatsApp conversations to fulfill your rides and improve service."
+        },
+        {
+            "heading": "Cookies and Website Analytics",
+            "content": "Our website may use basic analytics (such as Vercel Analytics) to understand visitor patterns and improve user experience. These tools may collect anonymized data about your browser type, device, and pages visited. No personally identifiable information is collected through analytics."
+        },
+        {
+            "heading": "Your Rights",
+            "content": "You have the right to access, correct, or delete your personal data. To exercise these rights, contact us at hello@yuvancabs.com or via WhatsApp at +91 81058 25544. We will respond to your request within 30 days."
+        },
+        {
+            "heading": "Changes to This Policy",
+            "content": "We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated \"Last Updated\" date. Your continued use of our service after changes constitutes acceptance of the updated policy."
+        },
+        {
+            "heading": "Contact Us",
+            "content": "If you have questions about this Privacy Policy, contact us at hello@yuvancabs.com or call +91 81058 25544."
+        }
+    ]
+}

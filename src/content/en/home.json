@@ -1,0 +1,100 @@
+{
+    "hero": {
+        "badge": "Zero-Effort Hydraulic Lift",
+        "headingLine1": "Bengaluru\u2019s First",
+        "headingHighlight": "Automated Wheelchair Taxi",
+        "description": "Say goodbye to physical lifting. Experience safe, dignified, and hygienic travel with our state-of-the-art hydraulic lift cabs. Perfect for hospital visits and city travel.",
+        "ctaPrimary": {
+            "label": "Book Your Ride",
+            "href": "https://www.yuvancabs.com/booking",
+            "ariaLabel": "Book your ride via WhatsApp"
+        },
+        "ctaSecondary": {
+            "label": "See How It Works",
+            "icon": "play_circle"
+        },
+        "trustBadges": [
+            {
+                "label": "Verified Drivers"
+            },
+            {
+                "label": "Sanitized Daily"
+            },
+            {
+                "label": "On-Time Guarantee"
+            }
+        ],
+        "liftCard": {
+            "title": "Hydraulic Lift System",
+            "capacity": "Capacity: 300kg",
+            "statusLabel": "ACTIVE",
+            "safetyLabel": "Safety Lock Engaged",
+            "readyLabel": "Ready to Board"
+        }
+    },
+    "features": {
+        "heading": "Why the Lift Matters",
+        "subheading": "Designed for dignity, safety, and zero physical strain for both the passenger and the caregiver.",
+        "features": [
+            {
+                "icon": "accessibility_new",
+                "title": "Zero Physical Strain",
+                "description": "No lifting required. Our hydraulic system does all the heavy work, preventing back injuries for caregivers and ensuring smooth entry.",
+                "iconBg": "bg-primary/10",
+                "iconColor": "text-primary"
+            },
+            {
+                "icon": "schedule",
+                "title": "Punctual Hospital Drops",
+                "description": "We understand medical appointments can't wait. Our drivers are trained to be punctual and know the quickest routes to major Bengaluru hospitals.",
+                "iconBg": "bg-accent/10",
+                "iconColor": "text-accent"
+            },
+            {
+                "icon": "shield_lock",
+                "title": "Dignity & Safety",
+                "description": "Secure 4-point locking mechanism ensures the wheelchair stays in place. Travel with the dignity and safety you deserve.",
+                "iconBg": "bg-teal-100",
+                "iconColor": "text-teal-600"
+            }
+        ]
+    },
+    "testimonials": {
+        "heading": "Trusted by Families",
+        "subheading": "Join hundreds of satisfied customers in Bengaluru.",
+        "reviews": [
+            {
+                "quote": "The hydraulic lift is a game changer for my father's hospital visits. No more awkward lifting or anxiety. The driver was incredibly patient.",
+                "name": "Ramesh Kumar",
+                "location": "Jayanagar Resident",
+                "stars": 5
+            },
+            {
+                "quote": "Finally, a taxi service that respects wheelchair users! The cab was clean, smelled fresh, and the locking system felt very secure.",
+                "name": "Anita Sharma",
+                "location": "Whitefield Resident",
+                "stars": 5
+            },
+            {
+                "quote": "Prompt service to Manipal Hospital. The booking process via WhatsApp was seamless and the pricing is very fair for the quality.",
+                "name": "David P.",
+                "location": "Indiranagar Resident",
+                "stars": 5
+            }
+        ]
+    },
+    "cta": {
+        "heading": "Ready to ride with dignity?",
+        "subheading": "Book your YuvanCabs today. Our drivers are ready to assist you anywhere in Bengaluru.",
+        "whatsapp": {
+            "label": "Book via WhatsApp",
+            "href": "https://www.yuvancabs.com/booking",
+            "ariaLabel": "Book via WhatsApp"
+        },
+        "phone": {
+            "label": "+91 81058 25544",
+            "href": "tel:+918105825544",
+            "ariaLabel": "Call us"
+        }
+    }
+}

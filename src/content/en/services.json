@@ -1,0 +1,76 @@
+{
+    "heading": "Our Wheelchair Taxi Services in Bangalore",
+    "subheading": "Reliable, dignified, and fully accessible transportation for every journey across Bengaluru.",
+    "services": [
+        {
+            "icon": "flight",
+            "title": "Airport Transfers",
+            "description": "Door-to-door wheelchair accessible transport to and from Kempegowda International Airport (BIAL). Our drivers know the best routes and handle all accessibility needs at the terminal.",
+            "highlights": [
+                "Pickup & drop at Terminal 1 and Terminal 2",
+                "Flight tracking for on-time arrivals",
+                "Luggage assistance included",
+                "Pre-book up to 7 days in advance"
+            ]
+        },
+        {
+            "icon": "local_hospital",
+            "title": "Hospital Transport",
+            "description": "Specialized transport for hospital visits, dialysis appointments, physiotherapy sessions, and post-surgery discharges across all major Bengaluru hospitals.",
+            "highlights": [
+                "Manipal, Narayana, Fortis, Columbia Asia",
+                "Recurring appointment scheduling",
+                "Patient comfort-first protocols",
+                "Caregiver can ride along free"
+            ]
+        },
+        {
+            "icon": "route",
+            "title": "Outstation Trips",
+            "description": "Wheelchair accessible outstation travel from Bengaluru to Mysuru, Coorg, Ooty, and other popular destinations. Comfortable long-distance journeys with rest stops.",
+            "highlights": [
+                "Bengaluru to Mysuru, Coorg, Ooty & more",
+                "Planned rest stops for comfort",
+                "Round-trip and one-way options",
+                "Competitive per-km pricing"
+            ]
+        },
+        {
+            "icon": "calendar_month",
+            "title": "Package Trips & Events",
+            "description": "Full-day or multi-day packages for weddings, family events, sightseeing tours, and corporate needs. Customised itineraries for wheelchair users.",
+            "highlights": [
+                "Weddings & family functions",
+                "Bengaluru city sightseeing",
+                "Corporate event transport",
+                "Flexible hourly or daily packages"
+            ]
+        }
+    ],
+    "uspSection": {
+        "heading": "Bangalore's Only Automatic Hydraulic Lift Taxi",
+        "description": "Every competitor in Bengaluru uses manual foldable ramps that require physical lifting and create safety risks. Our automatic hydraulic lift changes everything \u2014 zero physical strain, zero risk, maximum dignity.",
+        "benefits": [
+            "300kg capacity hydraulic platform \u2014 handles all wheelchair types",
+            "One-button operation \u2014 no manual lifting by anyone",
+            "4-point wheelchair locking system inside the cabin",
+            "Ground-level boarding \u2014 no steep ramp inclines",
+            "Certified safety mechanisms with auto-stop sensors",
+            "Daily sanitization and maintenance checks"
+        ]
+    },
+    "cta": {
+        "heading": "Ready to experience the difference?",
+        "subheading": "Book your first ride and see why families across Bengaluru trust YuvanCabs.",
+        "whatsapp": {
+            "label": "Book via WhatsApp",
+            "href": "https://www.yuvancabs.com/booking",
+            "ariaLabel": "Book via WhatsApp"
+        },
+        "phone": {
+            "label": "+91 81058 25544",
+            "href": "tel:+918105825544",
+            "ariaLabel": "Call us"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "metaTitle": "Wheelchair Taxi in Jayanagar | WheelchairTaxi Bangalore",
+    "metaDescription": "In need of a wheelchair accessible cab in Jayanagar? We offer specialized taxi services featuring automatic hydraulic lifts for a safe, stress-free journey.",
+    "h1": "Wheelchair Taxi in Jayanagar",
+    "destination": "Jayanagar",
+    "slug": "jayanagar",
+    "travelTime": "Available throughout Jayanagar blocks",
+    "distance": "Servicing South End Circle, 4th Block, and JP Nagar",
+    "pricingEstimate": "Based on distance (Base fare applies)",
+    "landmarks": [
+        "Jayanagar 4th Block Shopping Complex",
+        "South End Circle",
+        "Sanjay Gandhi Hospital"
+    ],
+    "description": "Our wheelchair taxi service in Jayanagar is dedicated to providing completely accessible transport. Feel secure as our drivers operate the automatic hydraulic lift, accommodating manual and electric wheelchairs easily.",
+    "cta": {
+        "heading": "Book a Ride from Jayanagar",
+        "subheading": "Get a wheelchair accessible cab in Jayanagar today via WhatsApp.",
+        "whatsapp": {
+            "label": "Book via WhatsApp",
+            "href": "https://www.yuvancabs.com/booking",
+            "ariaLabel": "Book your wheelchair taxi via WhatsApp"
+        },
+        "phone": {
+            "label": "+91 81058 25544",
+            "href": "tel:+918105825544",
+            "ariaLabel": "Call us to book a wheelchair taxi"
+        }
+    }
+}

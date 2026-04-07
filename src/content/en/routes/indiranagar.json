@@ -1,0 +1,30 @@
+{
+    "metaTitle": "Wheelchair Taxi in Indiranagar | WheelchairTaxi Bangalore",
+    "metaDescription": "Looking for a wheelchair accessible taxi near Indiranagar? We provide reliable transport with automatic hydraulic lifts for comfortable rides around Bangalore.",
+    "h1": "Wheelchair Taxi in Indiranagar",
+    "destination": "Indiranagar",
+    "slug": "indiranagar",
+    "travelTime": "Available throughout Indiranagar and nearby areas",
+    "distance": "Servicing 100FT Road, CMH Road, and Inner Ring Road",
+    "pricingEstimate": "Based on distance (Base fare applies)",
+    "landmarks": [
+        "100 Feet Road",
+        "CMH Road",
+        "Domlur"
+    ],
+    "description": "Residents and visitors in Indiranagar can easily book our wheelchair accessible cabs. Equipped with automatic hydraulic lifts, our taxis offer safe and seamless travel for shopping, medical appointments, or leisure.",
+    "cta": {
+        "heading": "Book a Ride from Indiranagar",
+        "subheading": "Get a wheelchair accessible taxi in Indiranagar within minutes via WhatsApp.",
+        "whatsapp": {
+            "label": "Book via WhatsApp",
+            "href": "https://www.yuvancabs.com/booking",
+            "ariaLabel": "Book your wheelchair taxi via WhatsApp"
+        },
+        "phone": {
+            "label": "+91 81058 25544",
+            "href": "tel:+918105825544",
+            "ariaLabel": "Call us to book a wheelchair taxi"
+        }
+    }
+}

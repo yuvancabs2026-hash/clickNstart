@@ -1,0 +1,30 @@
+{
+    "metaTitle": "Wheelchair Taxi to Bangalore Railway Station | WheelchairTaxi Bangalore",
+    "metaDescription": "Book a wheelchair accessible taxi to KSR Bengaluru City Railway Station. Smooth transfers, punctual service, and vehicles equipped with hydraulic lifts.",
+    "h1": "Wheelchair Taxi to Bangalore Railway Station",
+    "destination": "KSR Bengaluru City Railway Station",
+    "slug": "bangalore-railway-station",
+    "travelTime": "20-40 mins from Central Bangalore",
+    "distance": "approx. 5 km",
+    "pricingEstimate": "Starting at \u20b9899",
+    "landmarks": [
+        "Majestic",
+        "Malleshwaram",
+        "Kempegowda Bus Station"
+    ],
+    "description": "Catching a train shouldn't be a hassle. Our wheelchair taxis provide reliable transfers to and from KSR Bengaluru City Railway Station, complete with an automatic hydraulic lift.",
+    "cta": {
+        "heading": "Heading to the Train Station?",
+        "subheading": "Book your wheelchair accessible cab to the railway station instantly via WhatsApp.",
+        "whatsapp": {
+            "label": "Book via WhatsApp",
+            "href": "https://www.yuvancabs.com/booking",
+            "ariaLabel": "Book your wheelchair taxi via WhatsApp"
+        },
+        "phone": {
+            "label": "+91 81058 25544",
+            "href": "tel:+918105825544",
+            "ariaLabel": "Call us to book a wheelchair taxi"
+        }
+    }
+}

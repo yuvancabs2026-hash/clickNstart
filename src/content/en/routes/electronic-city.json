@@ -1,0 +1,30 @@
+{
+    "metaTitle": "Wheelchair Taxi in Electronic City | WheelchairTaxi Bangalore",
+    "metaDescription": "Book a wheelchair accessible taxi in Electronic City. Our specialized cabs offer automatic hydraulic lifts for hassle-free transport across Bangalore.",
+    "h1": "Wheelchair Taxi in Electronic City",
+    "destination": "Electronic City",
+    "slug": "electronic-city",
+    "travelTime": "Available in Electronic City Phase 1 and 2",
+    "distance": "Servicing Hosur Road, Bommasandra, and Silk Board",
+    "pricingEstimate": "Based on distance (Base fare applies)",
+    "landmarks": [
+        "Elevated Expressway",
+        "Wipro Gate",
+        "Infosys Campus"
+    ],
+    "description": "For residents and workers in Electronic City, we offer a dedicated wheelchair taxi service. Our accessible cabs feature an automatic hydraulic lift, ensuring maximum safety for all mobility needs.",
+    "cta": {
+        "heading": "Book a Ride from Electronic City",
+        "subheading": "Get a wheelchair accessible taxi in Electronic City quickly via WhatsApp.",
+        "whatsapp": {
+            "label": "Book via WhatsApp",
+            "href": "https://www.yuvancabs.com/booking",
+            "ariaLabel": "Book your wheelchair taxi via WhatsApp"
+        },
+        "phone": {
+            "label": "+91 81058 25544",
+            "href": "tel:+918105825544",
+            "ariaLabel": "Call us to book a wheelchair taxi"
+        }
+    }
+}

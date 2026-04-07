@@ -1,0 +1,465 @@
+FAIL src/components/__tests__/GlassNav.test.tsx
+  GlassNav Component
+    ✓ renders the brand name (32 ms)
+    ✓ renders the city tagline (7 ms)
+    ✕ renders navigation links (10 ms)
+    ✕ renders the driver status indicator (6 ms)
+    ✓ uses a semantic <nav> element (4 ms)
+
+  ● GlassNav Component › renders navigation links
+
+    TestingLibraryElementError: Found multiple elements with the text: Home
+
+    Here are the matching elements:
+
+    Ignored nodes: comments, script, style
+    [36m<a[39m
+      [33mclass[39m=[32m"text-sm font-semibold transition-colors text-slate-800 hover:text-primary"[39m
+      [33mhref[39m=[32m"/"[39m
+    [36m>[39m
+      [0mHome[0m
+    [36m</a>[39m
+
+    Ignored nodes: comments, script, style
+    [36m<a[39m
+      [33mclass[39m=[32m"block px-4 py-3 text-base font-semibold text-slate-900 hover:bg-slate-50 rounded-xl"[39m
+      [33mhref[39m=[32m"/"[39m
+    [36m>[39m
+      [0mHome[0m
+    [36m</a>[39m
+
+    (If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<nav[39m
+          [33mclass[39m=[32m"fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent border-b border-transparent py-2"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex justify-between items-center h-20"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"flex items-center gap-3"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"w-10 h-10 bg-primary rounded-xl flex items-center justify-center text-white shadow-lg shadow-primary/30"[39m
+                [36m>[39m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"material-symbols-outlined text-2xl"[39m
+                  [36m>[39m
+                    [0mlocal_taxi[0m
+                  [36m</span>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<h1[39m
+                    [33mclass[39m=[32m"text-xl font-display font-bold leading-tight tracking-tight text-slate-900 dark:text-white"[39m
+                  [36m>[39m
+                    [0mHydraCab[0m
+                  [36m</h1>[39m
+                  [36m<p[39m
+                    [33mclass[39m=[32m"text-xs text-slate-500 dark:text-slate-400 font-medium"[39m
+                  [36m>[39m
+                    [0mBengaluru[0m
+                  [36m</p>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"hidden md:flex items-center gap-8"[39m
+              [36m>[39m
+                [36m<a[39m
+                  [33mclass[39m=[32m"text-sm font-semibold transition-colors text-slate-800 hover:text-primary"[39m
+                  [33mhref[39m=[32m"/"[39m
+                [36m>[39m
+                  [0mHome[0m
+                [36m</a>[39m
+                [36m<a[39m
+                  [33mclass[39m=[32m"text-sm font-semibold transition-colors text-slate-800 hover:text-primary"[39m
+                  [33mhref[39m=[32m"/services"[39m
+                [36m>[39m
+                  [0mServices[0m
+                [36m</a>[39m
+                [36m<a[39m
+                  [33mclass[39m=[32m"text-sm font-semibold transition-colors text-slate-800 hover:text-primary"[39m
+                  [33mhref[39m=[32m"/about"[39m
+                [36m>[39m
+                  [0mAbout[0m
+                [36m</a>[39m
+                [36m<a[39m
+                  [33mclass[39m=[32m"text-sm font-semibold transition-colors text-slate-800 hover:text-primary"[39m
+                  [33mhref[39m=[32m"/contact"[39m
+                [36m>[39m
+                  [0mContact[0m
+                [36m</a>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"hidden md:flex items-center gap-4"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"hidden lg:flex items-center gap-2 px-3 py-1.5 bg-green-100 dark:bg-green-900/30 rounded-full border border-green-200 dark:border-green-800"[39m
+                [36m>[39m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"relative flex h-2.5 w-2.5"[39m
+                  [36m>[39m
+                    [36m<span[39m
+                      [33mclass[39m=[32m"animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75"[39m
+                    [36m/>[39m
+                    [36m<span[39m
+                      [33mclass[39m=[32m"relative inline-flex rounded-full h-2.5 w-2.5 bg-green-600"[39m
+                    [36m/>[39m
+                  [36m</span>[39m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"text-xs font-bold text-green-700 dark:text-green-400 uppercase tracking-wide"[39m
+                  [36m>[39m
+                    [0mDriver Available[0m
+                  [36m</span>[39m
+                [36m</div>[39m
+                [36m<a[39m
+                  [33mclass[39m=[32m"bg-primary hover:bg-secondary text-white px-5 py-2.5 rounded-xl font-bold text-sm shadow-lg shadow-primary/20 hover:shadow-primary/40 transition-all flex items-center gap-2"[39m
+                  [33mhref[39m=[32m"https://wa.me/919876543210?text=Hi%2C%20I%20would%20like%20to%20book%20a%20wheelchair%20taxi"[39m
+                [36m>[39m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"material-symbols-outlined text-lg"[39m
+                  [36m>[39m
+                    [0mchat[0m
+                  [36m</span>[39m
+                  [36m<span>[39m
+                    [0mBook on WhatsApp[0m
+                  [36m</span>[39m
+                [36m</a>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"md:hidden flex items-center"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33maria-expanded[39m=[32m"false"[39m
+                  [33maria-label[39m=[32m"Open menu"[39m
+                  [33mclass[39m=[32m"text-slate-900 dark:text-white p-2"[39m
+                [36m>[39m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"material-symbols-outlined text-3xl"[39m
+                  [36m>[39m
+                    [0mmenu[0m
+                  [36m</span>[39m
+                [36m</button>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"md:hidden absolute top-full left-0 right-0 bg-white dark:bg-slate-900 shadow-xl border-b border-slate-200 dark:border-slate-800 transition-all duration-300 overflow-hidden max-h-0 border-t-0"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"px-4 pt-4 pb-8 space-y-4"[39m
+            [36m>[39m
+              [36m<a[39m
+                [33mclass[39m=[32m"block px-4 py-3 text-base font-semibold text-slate-900 hover:bg-slate-50 rounded-xl"[39m
+                [33mhref[39m=[32m"/"[39m
+              [36m>[39m
+                [0mHome[0m
+              [36m</a>[39m
+              [36m<a[39m
+                [33mclass[39m=[32m"block px-4 py-3 text-base font-semibold text-slate-900 hover:bg-slate-50 rounded-xl"[39m
+                [33mhref[39m=[32m"/services"[39m
+              [36m>[39m
+                [0mServices[0m
+              [36m</a>[39m
+              [36m<a[39m
+                [33mclass[39m=[32m"block px-4 py-3 text-base font-semibold text-slate-900 hover:bg-slate-50 rounded-xl"[39m
+                [33mhref[39m=[32m"/about"[39m
+              [36m>[39m
+                [0mAbout[0m
+              [36m</a>[39m
+              [36m<a[39m
+                [33mclass[39m=[32m"block px-4 py-3 text-base font-semibold text-slate-900 hover:bg-slate-50 rounded-xl"[39m
+                [33mhref[39m=[32m"/contact"[39m
+              [36m>[39m
+                [0mContact[0m
+              [36m</a>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"pt-6 mt-4 border-t border-slate-100 flex flex-col gap-4"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"flex items-center gap-2 px-4"[39m
+                [36m>[39m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"relative flex h-2.5 w-2.5"[39m
+                  [36m>[39m
+                    [36m<span[39m
+                      [33mclass[39m=[32m"animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75"[39m
+                    [36m/>[39m
+                    [36m<span[39m
+                      [33mclass[39m=[32m"relative inline-flex rounded-full h-2.5 w-2.5 bg-green-600"[39m
+                    [36m/>[39m
+                  [36m</span>[39m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"text-sm font-bold text-green-700 uppercase tracking-wide"[39m
+                  [36m>[39m
+                    [0mDriver Available[0m
+                  [36m</span>[39m
+                [36m</div>[39m
+                [36m<a[39m
+                  [33mclass[39m=[32m"bg-primary text-white w-full px-5 py-4 rounded-xl font-bold text-center flex items-center justify-center gap-2"[39m
+                  [33mhref[39m=[32m"https://wa.me/919876543210?text=Hi%2C%20I%20would%20like%20to%20book%20a%20wheelchair%20taxi"[39m
+                [36m>[39m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"material-symbols-outlined"[39m
+                  [36m>[39m
+                    [0mchat[0m
+                  [36m</span>[39m
+                  [0mBook on WhatsApp[0m
+                [36m</a>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</nav>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      20 |     it('renders navigation links', () => {
+      21 |         render(<GlassNav data={navData} />);
+    > 22 |         expect(screen.getByText('Home')).toBeInTheDocument();
+         |                       ^
+      23 |         expect(screen.getByText('Services')).toBeInTheDocument();
+      24 |         expect(screen.getByText('About')).toBeInTheDocument();
+      25 |         expect(screen.getByText('Contact')).toBeInTheDocument();
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:37:19)
+      at getElementError (node_modules/@testing-library/dom/dist/query-helpers.js:20:35)
+      at getMultipleElementsFoundError (node_modules/@testing-library/dom/dist/query-helpers.js:23:10)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:55:13
+      at node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+      at Object.getByText (src/components/__tests__/GlassNav.test.tsx:22:23)
+
+  ● GlassNav Component › renders the driver status indicator
+
+    TestingLibraryElementError: Found multiple elements with the text: Driver Available
+
+    Here are the matching elements:
+
+    Ignored nodes: comments, script, style
+    [36m<span[39m
+      [33mclass[39m=[32m"text-xs font-bold text-green-700 dark:text-green-400 uppercase tracking-wide"[39m
+    [36m>[39m
+      [0mDriver Available[0m
+    [36m</span>[39m
+
+    Ignored nodes: comments, script, style
+    [36m<span[39m
+      [33mclass[39m=[32m"text-sm font-bold text-green-700 uppercase tracking-wide"[39m
+    [36m>[39m
+      [0mDriver Available[0m
+    [36m</span>[39m
+
+    (If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<nav[39m
+          [33mclass[39m=[32m"fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent border-b border-transparent py-2"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex justify-between items-center h-20"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"flex items-center gap-3"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"w-10 h-10 bg-primary rounded-xl flex items-center justify-center text-white shadow-lg shadow-primary/30"[39m
+                [36m>[39m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"material-symbols-outlined text-2xl"[39m
+                  [36m>[39m
+                    [0mlocal_taxi[0m
+                  [36m</span>[39m
+                [36m</div>[39m
+                [36m<div>[39m
+                  [36m<h1[39m
+                    [33mclass[39m=[32m"text-xl font-display font-bold leading-tight tracking-tight text-slate-900 dark:text-white"[39m
+                  [36m>[39m
+                    [0mHydraCab[0m
+                  [36m</h1>[39m
+                  [36m<p[39m
+                    [33mclass[39m=[32m"text-xs text-slate-500 dark:text-slate-400 font-medium"[39m
+                  [36m>[39m
+                    [0mBengaluru[0m
+                  [36m</p>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"hidden md:flex items-center gap-8"[39m
+              [36m>[39m
+                [36m<a[39m
+                  [33mclass[39m=[32m"text-sm font-semibold transition-colors text-slate-800 hover:text-primary"[39m
+                  [33mhref[39m=[32m"/"[39m
+                [36m>[39m
+                  [0mHome[0m
+                [36m</a>[39m
+                [36m<a[39m
+                  [33mclass[39m=[32m"text-sm font-semibold transition-colors text-slate-800 hover:text-primary"[39m
+                  [33mhref[39m=[32m"/services"[39m
+                [36m>[39m
+                  [0mServices[0m
+                [36m</a>[39m
+                [36m<a[39m
+                  [33mclass[39m=[32m"text-sm font-semibold transition-colors text-slate-800 hover:text-primary"[39m
+                  [33mhref[39m=[32m"/about"[39m
+                [36m>[39m
+                  [0mAbout[0m
+                [36m</a>[39m
+                [36m<a[39m
+                  [33mclass[39m=[32m"text-sm font-semibold transition-colors text-slate-800 hover:text-primary"[39m
+                  [33mhref[39m=[32m"/contact"[39m
+                [36m>[39m
+                  [0mContact[0m
+                [36m</a>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"hidden md:flex items-center gap-4"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"hidden lg:flex items-center gap-2 px-3 py-1.5 bg-green-100 dark:bg-green-900/30 rounded-full border border-green-200 dark:border-green-800"[39m
+                [36m>[39m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"relative flex h-2.5 w-2.5"[39m
+                  [36m>[39m
+                    [36m<span[39m
+                      [33mclass[39m=[32m"animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75"[39m
+                    [36m/>[39m
+                    [36m<span[39m
+                      [33mclass[39m=[32m"relative inline-flex rounded-full h-2.5 w-2.5 bg-green-600"[39m
+                    [36m/>[39m
+                  [36m</span>[39m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"text-xs font-bold text-green-700 dark:text-green-400 uppercase tracking-wide"[39m
+                  [36m>[39m
+                    [0mDriver Available[0m
+                  [36m</span>[39m
+                [36m</div>[39m
+                [36m<a[39m
+                  [33mclass[39m=[32m"bg-primary hover:bg-secondary text-white px-5 py-2.5 rounded-xl font-bold text-sm shadow-lg shadow-primary/20 hover:shadow-primary/40 transition-all flex items-center gap-2"[39m
+                  [33mhref[39m=[32m"https://wa.me/919876543210?text=Hi%2C%20I%20would%20like%20to%20book%20a%20wheelchair%20taxi"[39m
+                [36m>[39m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"material-symbols-outlined text-lg"[39m
+                  [36m>[39m
+                    [0mchat[0m
+                  [36m</span>[39m
+                  [36m<span>[39m
+                    [0mBook on WhatsApp[0m
+                  [36m</span>[39m
+                [36m</a>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"md:hidden flex items-center"[39m
+              [36m>[39m
+                [36m<button[39m
+                  [33maria-expanded[39m=[32m"false"[39m
+                  [33maria-label[39m=[32m"Open menu"[39m
+                  [33mclass[39m=[32m"text-slate-900 dark:text-white p-2"[39m
+                [36m>[39m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"material-symbols-outlined text-3xl"[39m
+                  [36m>[39m
+                    [0mmenu[0m
+                  [36m</span>[39m
+                [36m</button>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"md:hidden absolute top-full left-0 right-0 bg-white dark:bg-slate-900 shadow-xl border-b border-slate-200 dark:border-slate-800 transition-all duration-300 overflow-hidden max-h-0 border-t-0"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"px-4 pt-4 pb-8 space-y-4"[39m
+            [36m>[39m
+              [36m<a[39m
+                [33mclass[39m=[32m"block px-4 py-3 text-base font-semibold text-slate-900 hover:bg-slate-50 rounded-xl"[39m
+                [33mhref[39m=[32m"/"[39m
+              [36m>[39m
+                [0mHome[0m
+              [36m</a>[39m
+              [36m<a[39m
+                [33mclass[39m=[32m"block px-4 py-3 text-base font-semibold text-slate-900 hover:bg-slate-50 rounded-xl"[39m
+                [33mhref[39m=[32m"/services"[39m
+              [36m>[39m
+                [0mServices[0m
+              [36m</a>[39m
+              [36m<a[39m
+                [33mclass[39m=[32m"block px-4 py-3 text-base font-semibold text-slate-900 hover:bg-slate-50 rounded-xl"[39m
+                [33mhref[39m=[32m"/about"[39m
+              [36m>[39m
+                [0mAbout[0m
+              [36m</a>[39m
+              [36m<a[39m
+                [33mclass[39m=[32m"block px-4 py-3 text-base font-semibold text-slate-900 hover:bg-slate-50 rounded-xl"[39m
+                [33mhref[39m=[32m"/contact"[39m
+              [36m>[39m
+                [0mContact[0m
+              [36m</a>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"pt-6 mt-4 border-t border-slate-100 flex flex-col gap-4"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"flex items-center gap-2 px-4"[39m
+                [36m>[39m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"relative flex h-2.5 w-2.5"[39m
+                  [36m>[39m
+                    [36m<span[39m
+                      [33mclass[39m=[32m"animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75"[39m
+                    [36m/>[39m
+                    [36m<span[39m
+                      [33mclass[39m=[32m"relative inline-flex rounded-full h-2.5 w-2.5 bg-green-600"[39m
+                    [36m/>[39m
+                  [36m</span>[39m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"text-sm font-bold text-green-700 uppercase tracking-wide"[39m
+                  [36m>[39m
+                    [0mDriver Available[0m
+                  [36m</span>[39m
+                [36m</div>[39m
+                [36m<a[39m
+                  [33mclass[39m=[32m"bg-primary text-white w-full px-5 py-4 rounded-xl font-bold text-center flex items-center justify-center gap-2"[39m
+                  [33mhref[39m=[32m"https://wa.me/919876543210?text=Hi%2C%20I%20would%20like%20to%20book%20a%20wheelchair%20taxi"[39m
+                [36m>[39m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"material-symbols-outlined"[39m
+                  [36m>[39m
+                    [0mchat[0m
+                  [36m</span>[39m
+                  [0mBook on WhatsApp[0m
+                [36m</a>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</nav>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      28 |     it('renders the driver status indicator', () => {
+      29 |         render(<GlassNav data={navData} />);
+    > 30 |         expect(screen.getByText('Driver Available')).toBeInTheDocument();
+         |                       ^
+      31 |     });
+      32 |
+      33 |     it('uses a semantic <nav> element', () => {
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:37:19)
+      at getElementError (node_modules/@testing-library/dom/dist/query-helpers.js:20:35)
+      at getMultipleElementsFoundError (node_modules/@testing-library/dom/dist/query-helpers.js:23:10)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:55:13
+      at node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+      at Object.getByText (src/components/__tests__/GlassNav.test.tsx:30:23)
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 3 passed, 5 total
+Snapshots:   0 total
+Time:        0.596 s, estimated 1 s
+Ran all test suites matching src/components/__tests__/GlassNav.test.tsx.

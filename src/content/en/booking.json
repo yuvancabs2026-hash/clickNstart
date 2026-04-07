@@ -1,0 +1,26 @@
+{
+    "heading": "Book Your Wheelchair Taxi",
+    "subheading": "Tell us where you need to go and we'll arrange a comfortable, accessible ride for you.",
+    "whatsappTemplate": "Hi, I'd like to book a wheelchair taxi.\n\nName: {name}\nPhone: {phone}\nPickup: {pickup}\nDestination: {destination}\nDate & Time: {datetime}\nNotes: {notes}",
+    "whatsappNumber": "918105825544",
+    "instructions": [
+        "Fill in the form below with your trip details",
+        "Click 'Send Booking via WhatsApp' to open WhatsApp with your details pre-filled",
+        "Our team will confirm your booking within 15 minutes",
+        "You'll receive driver details 30 minutes before pickup"
+    ],
+    "cta": {
+        "heading": "Prefer to call?",
+        "subheading": "Our team is available 24/7 to assist you with bookings.",
+        "whatsapp": {
+            "label": "Chat on WhatsApp",
+            "href": "https://wa.me/918105825544",
+            "ariaLabel": "Chat on WhatsApp"
+        },
+        "phone": {
+            "label": "+91 81058 25544",
+            "href": "tel:+918105825544",
+            "ariaLabel": "Call us"
+        }
+    }
+}
