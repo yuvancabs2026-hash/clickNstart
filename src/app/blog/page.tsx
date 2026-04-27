@@ -29,7 +29,7 @@ export default async function BlogIndexPage() {
                 </div>
             </div>
 
-            <div className="flex-grow max-w-5xl mx-auto w-full px-4 py-12 lg:py-20">
+            <div className="grow max-w-5xl mx-auto w-full px-4 py-12 lg:py-20">
                 {posts.length === 0 ? (
                     <p className="text-center text-slate-500">No blog posts found. Check back soon!</p>
                 ) : (
@@ -40,7 +40,7 @@ export default async function BlogIndexPage() {
                                 href={`/blog/${post.frontmatter.slug}`}
                                 className="group flex flex-col bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl hover:border-brand-teal/30 transition-all duration-300"
                             >
-                                <div className="p-6 flex-grow flex flex-col">
+                                <div className="p-6 grow flex flex-col">
                                     <div className="flex items-center gap-3 mb-4 text-sm">
                                         <span className="text-brand-teal font-semibold">
                                             {post.frontmatter.category || 'Guide'}
