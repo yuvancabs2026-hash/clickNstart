@@ -25,7 +25,7 @@ export default function ContactPage() {
             />
 
             {/* Page Header */}
-            <section className="py-16 bg-gradient-to-b from-slate-50 to-white" aria-label="Contact header">
+            <section className="py-16 bg-linear-to-b from-slate-50 to-white" aria-label="Contact header">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <h1 className="text-4xl sm:text-5xl font-display font-extrabold tracking-tight text-slate-900 mb-6">
                         {data.heading}
@@ -47,7 +47,7 @@ export default function ContactPage() {
                             </h2>
                             <div className="space-y-6">
                                 <div className="flex items-start gap-4">
-                                    <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary flex-shrink-0">
+                                    <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary shrink-0">
                                         <span className="material-symbols-outlined">location_on</span>
                                     </div>
                                     <div>
@@ -58,7 +58,7 @@ export default function ContactPage() {
                                 </div>
 
                                 <div className="flex items-start gap-4">
-                                    <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary flex-shrink-0">
+                                    <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary shrink-0">
                                         <span className="material-symbols-outlined">call</span>
                                     </div>
                                     <div>
@@ -73,7 +73,7 @@ export default function ContactPage() {
                                 </div>
 
                                 <div className="flex items-start gap-4">
-                                    <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary flex-shrink-0">
+                                    <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary shrink-0">
                                         <span className="material-symbols-outlined">mail</span>
                                     </div>
                                     <div>
@@ -88,7 +88,7 @@ export default function ContactPage() {
                                 </div>
 
                                 <div className="flex items-start gap-4">
-                                    <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary flex-shrink-0">
+                                    <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary shrink-0">
                                         <span className="material-symbols-outlined">schedule</span>
                                     </div>
                                     <div>

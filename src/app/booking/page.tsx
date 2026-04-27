@@ -25,7 +25,7 @@ export default function BookingPage() {
                 ]}
             />
 
-            <section className="py-16 bg-gradient-to-b from-slate-50 to-white" aria-label="Booking form">
+            <section className="py-16 bg-linear-to-b from-slate-50 to-white" aria-label="Booking form">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="max-w-2xl mx-auto text-center mb-12">
                         <h1 className="text-4xl sm:text-5xl font-display font-extrabold tracking-tight text-slate-900 mb-6">
@@ -53,7 +53,7 @@ export default function BookingPage() {
                                 <ol className="space-y-4">
                                     {data.instructions.map((instruction, index) => (
                                         <li key={index} className="flex items-start gap-3">
-                                            <span className="flex-shrink-0 w-7 h-7 rounded-full bg-primary text-white text-sm font-bold flex items-center justify-center">
+                                            <span className="shrink-0 w-7 h-7 rounded-full bg-primary text-white text-sm font-bold flex items-center justify-center">
                                                 {index + 1}
                                             </span>
                                             <span className="text-sm text-slate-600 leading-relaxed pt-0.5">

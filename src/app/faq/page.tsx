@@ -43,7 +43,7 @@ export default function FAQPage() {
             />
 
             {/* Page Header */}
-            <section className="py-16 bg-gradient-to-b from-slate-50 to-white" aria-label="FAQ header">
+            <section className="py-16 bg-linear-to-b from-slate-50 to-white" aria-label="FAQ header">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <h1 className="text-4xl sm:text-5xl font-display font-extrabold tracking-tight text-slate-900 mb-6">
                         {data.heading}
