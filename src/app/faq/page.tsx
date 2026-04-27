@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description:
         'Answers to common questions about wheelchair taxi service in Bangalore — pricing, booking process, hydraulic lift, hospital transport, areas covered, and more.',
     alternates: {
-        canonical: 'https://clicknstart.com/faq',
+        canonical: 'https://clicknstart.in/faq',
     },
 };
 

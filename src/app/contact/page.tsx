@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     description:
         'Get in touch with Click N Start for wheelchair accessible taxi booking in Bengaluru. Call +91 81058 25544 or message us on WhatsApp. Open 24/7.',
     alternates: {
-        canonical: 'https://clicknstart.com/contact',
+        canonical: 'https://clicknstart.in/contact',
     },
 };
 

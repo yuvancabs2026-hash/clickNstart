@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     description:
         'Airport transfers, hospital transport, outstation trips & package tours — all with automatic hydraulic lift. Book Click N Start\'s wheelchair accessible taxi in Bengaluru.',
     alternates: {
-        canonical: 'https://clicknstart.com/services',
+        canonical: 'https://clicknstart.in/services',
     },
 };
 

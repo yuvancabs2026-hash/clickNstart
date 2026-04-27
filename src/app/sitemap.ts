@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { getAllRouteSlugs, getAllBlogSlugs } from '@/lib/data';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-    const baseUrl = 'https://clicknstart.com';
+    const baseUrl = 'https://clicknstart.in';
     const routeSlugs = await getAllRouteSlugs();
     const blogSlugs = await getAllBlogSlugs();
 

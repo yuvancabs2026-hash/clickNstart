@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     description:
         'Privacy Policy for Click N Start Bengaluru — learn how we collect, use, and protect your personal information.',
     alternates: {
-        canonical: 'https://clicknstart.com/privacy-policy',
+        canonical: 'https://clicknstart.in/privacy-policy',
     },
 };
 

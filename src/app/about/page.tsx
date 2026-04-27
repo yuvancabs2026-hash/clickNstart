@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     description:
         'Learn about Click N Start — Bengaluru\'s first wheelchair taxi with automatic hydraulic lift. Our mission: dignified, safe, effortless mobility for every wheelchair user.',
     alternates: {
-        canonical: 'https://clicknstart.com/about',
+        canonical: 'https://clicknstart.in/about',
     },
 };
 

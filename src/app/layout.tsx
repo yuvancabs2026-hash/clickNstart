@@ -55,7 +55,7 @@ export const viewport: Viewport = {
 // };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://clicknstart.com"),
+  metadataBase: new URL("https://clicknstart.in"),
 
   title: {
     default: "Click N Start Bengaluru - Premium Wheelchair Taxi",
@@ -101,7 +101,7 @@ export const metadata: Metadata = {
     title: "Click N Start Bengaluru - Premium Wheelchair Taxi",
     description:
       "Bengaluru's first automated wheelchair taxi with a hydraulic lift.",
-    url: "https://Click N Start.com",
+    url: "https://clicknstart.in",
     siteName: "Click N Start",
     locale: "en_IN",
     type: "website",
@@ -129,8 +129,8 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Click N Start Bengaluru",
-  url: "https://clicknstart.com",
-  logo: "https://clicknstart.com/icon.svg",
+  url: "https://clicknstart.in",
+  logo: "https://clicknstart.in/icon.svg",
   description: "Bengaluru's premium wheelchair accessible taxi service with automated hydraulic lifts.",
   contactPoint: {
     "@type": "ContactPoint",

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     description:
         'Terms of Service for Click N Start Bengaluru — wheelchair accessible taxi service. Read our terms for bookings, cancellations, and service policies.',
     alternates: {
-        canonical: 'https://clicknstart.com/terms-of-service',
+        canonical: 'https://clicknstart.in/terms-of-service',
     },
 };
 
