@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         openGraph: {
             title: post.frontmatter.title,
             description: post.frontmatter.description,
-            url: `https://yuvancabs.com/blog/${slug}`,
+            url: `https://clicknstart.com/blog/${slug}`,
             type: 'article',
             publishedTime: post.frontmatter.date,
         },
@@ -69,7 +69,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         "datePublished": post.frontmatter.date,
         "author": { "@type": "Organization", "name": "WheelchairTaxi Bangalore" },
         "publisher": { "@type": "Organization", "name": "WheelchairTaxi Bangalore" },
-        "mainEntityOfPage": `https://yuvancabs.com/blog/${slug}`
+        "mainEntityOfPage": `https://clicknstart.com/blog/${slug}`
     };
 
     const breadcrumbItems = [
@@ -131,7 +131,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                             <h3 className="text-lg font-bold text-slate-900 mb-4">Share this guide</h3>
                             <div className="flex gap-4">
                                 <a
-                                    href={`https://twitter.com/intent/tweet?url=https://yuvancabs.com/blog/${slug}&text=${encodeURIComponent(post.frontmatter.title)}`}
+                                    href={`https://twitter.com/intent/tweet?url=https://clicknstart.com/blog/${slug}&text=${encodeURIComponent(post.frontmatter.title)}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="px-4 py-2 bg-[#1DA1F2]/10 text-[#1DA1F2] rounded-lg font-medium hover:bg-[#1DA1F2]/20 transition-colors"
@@ -139,7 +139,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                                     Twitter
                                 </a>
                                 <a
-                                    href={`https://www.facebook.com/sharer/sharer.php?u=https://yuvancabs.com/blog/${slug}`}
+                                    href={`https://www.facebook.com/sharer/sharer.php?u=https://clicknstart.com/blog/${slug}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="px-4 py-2 bg-[#4267B2]/10 text-[#4267B2] rounded-lg font-medium hover:bg-[#4267B2]/20 transition-colors"
@@ -147,7 +147,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                                     Facebook
                                 </a>
                                 <a
-                                    href={`https://api.whatsapp.com/send?text=${encodeURIComponent(post.frontmatter.title + ' https://yuvancabs.com/blog/' + slug)}`}
+                                    href={`https://api.whatsapp.com/send?text=${encodeURIComponent(post.frontmatter.title + ' https://clicknstart.com/blog/' + slug)}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="px-4 py-2 bg-[#25D366]/10 text-[#25D366] rounded-lg font-medium hover:bg-[#25D366]/20 transition-colors"

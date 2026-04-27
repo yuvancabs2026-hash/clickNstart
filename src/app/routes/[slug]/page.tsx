@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         openGraph: {
             title: data.metaTitle,
             description: data.metaDescription,
-            url: `https://yuvancabs.com/routes/${slug}`,
+            url: `https://clicknstart.com/routes/${slug}`,
             type: 'website',
             images: [
                 {
@@ -58,7 +58,7 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
         "@type": "TaxiService",
         "name": data.metaTitle,
         "description": data.metaDescription,
-        "url": `https://yuvancabs.com/routes/${slug}`,
+        "url": `https://clicknstart.com/routes/${slug}`,
         "provider": {
             "@type": "LocalBusiness",
             "name": "WheelchairTaxi Bangalore"

@@ -7,9 +7,10 @@ import type { Metadata } from 'next';
 import WheelchairTaxiVideo from '@/components/WheelchairTaxiVideo';
 import PatientStoriesGallery from '@/components/PatientStoriesGallery';
 import BookingNotice from '@/components/BookingNotice';
+import WheelchairTaxiReels from '@/components/videos2';
 
 export const metadata: Metadata = {
-  title: 'Wheelchair Accessible Taxi Service in Bangalore | YuvanCabs',
+  title: 'Wheelchair Accessible Taxi Service in Bangalore | Click N Start',
   description:
     'Book Bengaluru\'s first wheelchair taxi with automatic hydraulic lift. Safe, dignified transport for hospital visits, airport transfers & city travel. Call +91 81058 25544.',
   alternates: {
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': ['LocalBusiness', 'TaxiService'],
-  name: 'YuvanCabs Bengaluru',
+  name: 'Click N Start Bengaluru',
   description:
     'Wheelchair accessible taxi service in Bangalore with automatic hydraulic lift. Safe, dignified, and hygienic travel for hospital visits, airport transfers, and city travel.',
   url: 'https://yuvancabs.com',
@@ -60,6 +61,7 @@ export default function Home() {
       <BookingNotice/>
       <FeatureGrid data={data.features} />
       <TestimonialCarousel data={data.testimonials} />
+      <WheelchairTaxiReels/>
       <WheelchairTaxiVideo/>
       <CTABanner data={data.cta} />
       <PatientStoriesGallery/>

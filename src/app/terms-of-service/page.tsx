@@ -5,9 +5,9 @@ import { getLegalPageData } from '@/lib/data';
 export const metadata: Metadata = {
     title: 'Terms of Service',
     description:
-        'Terms of Service for YuvanCabs Bengaluru — wheelchair accessible taxi service. Read our terms for bookings, cancellations, and service policies.',
+        'Terms of Service for Click N Start Bengaluru — wheelchair accessible taxi service. Read our terms for bookings, cancellations, and service policies.',
     alternates: {
-        canonical: 'https://yuvancabs.com/terms-of-service',
+        canonical: 'https://clicknstart.com/terms-of-service',
     },
 };
 

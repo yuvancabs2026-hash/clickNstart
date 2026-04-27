@@ -4,10 +4,10 @@
     "items": [
         {
             "question": "How much does a wheelchair taxi cost in Bangalore?",
-            "answer": "Our pricing depends on the distance and type of trip. City rides start from \u20b9500 for short distances. Airport transfers, hospital trips, and outstation rides have transparent per-km pricing. Contact us via WhatsApp for an instant quote \u2014 we'll provide the exact fare before you book."
+            "answer": "Our pricing depends on the distance and type of trip. City rides start from ₹500 for short distances. Airport transfers, hospital trips, and outstation rides have transparent per-km pricing. Contact us via WhatsApp for an instant quote — we'll provide the exact fare before you book."
         },
         {
-            "question": "How do I book a wheelchair taxi with YuvanCabs?",
+            "question": "How do I book a wheelchair taxi with Click N Start?",
             "answer": "Booking is simple! Send us a message on WhatsApp with your pickup location, destination, and preferred date/time. You can also use our online booking form or call us directly at +91 81058 25544. We confirm bookings within 15 minutes."
         },
         {
@@ -44,7 +44,7 @@
         },
         {
             "question": "Is the vehicle sanitized between rides?",
-            "answer": "Yes. Every YuvanCabs vehicle is sanitized daily with hospital-grade disinfectants. We take hygiene seriously \u2014 especially since many of our passengers are visiting hospitals or have health sensitivities."
+            "answer": "Yes. Every Click N Start vehicle is sanitized daily with hospital-grade disinfectants. We take hygiene seriously — especially since many of our passengers are visiting hospitals or have health sensitivities."
         },
         {
             "question": "Can I book for a senior citizen who uses a walking frame, not a wheelchair?",
@@ -56,7 +56,7 @@
         "subheading": "Reach out to us on WhatsApp and we'll be happy to help.",
         "whatsapp": {
             "label": "Ask on WhatsApp",
-            "href": "https://www.yuvancabs.com/booking",
+            "href": "https://wa.me/918105825544",
             "ariaLabel": "Ask a question on WhatsApp"
         },
         "phone": {

@@ -1,12 +1,12 @@
 {
     "hero": {
         "badge": "Zero-Effort Hydraulic Lift",
-        "headingLine1": "Bengaluru\u2019s First",
+        "headingLine1": "Bengaluru’s First",
         "headingHighlight": "Automated Wheelchair Taxi",
         "description": "Say goodbye to physical lifting. Experience safe, dignified, and hygienic travel with our state-of-the-art hydraulic lift cabs. Perfect for hospital visits and city travel.",
         "ctaPrimary": {
             "label": "Book Your Ride",
-            "href": "https://www.yuvancabs.com/booking",
+            "href": "https://www.clicknstart.com/booking",
             "ariaLabel": "Book your ride via WhatsApp"
         },
         "ctaSecondary": {
@@ -85,10 +85,10 @@
     },
     "cta": {
         "heading": "Ready to ride with dignity?",
-        "subheading": "Book your YuvanCabs today. Our drivers are ready to assist you anywhere in Bengaluru.",
+        "subheading": "Book your Click N Start today. Our drivers are ready to assist you anywhere in Bengaluru.",
         "whatsapp": {
             "label": "Book via WhatsApp",
-            "href": "https://www.yuvancabs.com/booking",
+            "href": "https://wa.me/918105825544",
             "ariaLabel": "Book via WhatsApp"
         },
         "phone": {

@@ -55,11 +55,11 @@ export const viewport: Viewport = {
 // };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://yuvancabs.com"),
+  metadataBase: new URL("https://clicknstart.com"),
 
   title: {
-    default: "YuvanCabs Bengaluru - Premium Wheelchair Taxi",
-    template: "%s | YuvanCabs",
+    default: "Click N Start Bengaluru - Premium Wheelchair Taxi",
+    template: "%s | Click N Start",
   },
 
   description:
@@ -98,11 +98,11 @@ export const metadata: Metadata = {
 
   // ✅ OPEN GRAPH (for WhatsApp, LinkedIn, etc.)
   openGraph: {
-    title: "YuvanCabs Bengaluru - Premium Wheelchair Taxi",
+    title: "Click N Start Bengaluru - Premium Wheelchair Taxi",
     description:
       "Bengaluru's first automated wheelchair taxi with a hydraulic lift.",
-    url: "https://yuvancabs.com",
-    siteName: "YuvanCabs",
+    url: "https://Click N Start.com",
+    siteName: "Click N Start",
     locale: "en_IN",
     type: "website",
     images: [
@@ -110,7 +110,7 @@ export const metadata: Metadata = {
         url: "/android-chrome-512x512.png", // 👈 use this as OG image (or better: custom banner later)
         width: 512,
         height: 512,
-        alt: "YuvanCabs Wheelchair Taxi",
+        alt: "Click N Start Wheelchair Taxi",
       },
     ],
   },
@@ -118,7 +118,7 @@ export const metadata: Metadata = {
   // ✅ TWITTER CARDS
   twitter: {
     card: "summary_large_image",
-    title: "YuvanCabs Bengaluru - Premium Wheelchair Taxi",
+    title: "Click N Start Bengaluru - Premium Wheelchair Taxi",
     description:
       "Safe, dignified wheelchair-accessible transport in Bengaluru.",
     images: ["/android-chrome-512x512.png"],
@@ -128,9 +128,9 @@ export const metadata: Metadata = {
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "YuvanCabs Bengaluru",
-  url: "https://yuvancabs.com",
-  logo: "https://yuvancabs.com/icon.svg",
+  name: "Click N Start Bengaluru",
+  url: "https://clicknstart.com",
+  logo: "https://clicknstart.com/icon.svg",
   description: "Bengaluru's premium wheelchair accessible taxi service with automated hydraulic lifts.",
   contactPoint: {
     "@type": "ContactPoint",

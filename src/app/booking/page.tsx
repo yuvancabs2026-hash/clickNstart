@@ -7,9 +7,9 @@ import { getBookingPageData } from '@/lib/data';
 export const metadata: Metadata = {
     title: 'Book a Wheelchair Taxi in Bangalore',
     description:
-        'Book YuvanCabs — Bengaluru\'s wheelchair accessible taxi with hydraulic lift. Easy WhatsApp booking, confirmed in 15 minutes. Call +91 81058 25544.',
+        'Book Click N Start — Bengaluru\'s wheelchair accessible taxi with hydraulic lift. Easy WhatsApp booking, confirmed in 15 minutes. Call +91 81058 25544.',
     alternates: {
-        canonical: 'https://yuvancabs.com/booking',
+        canonical: 'https://clicknstart.com/booking',
     },
 };
 

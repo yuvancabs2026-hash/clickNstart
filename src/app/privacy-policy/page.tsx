@@ -5,9 +5,9 @@ import { getLegalPageData } from '@/lib/data';
 export const metadata: Metadata = {
     title: 'Privacy Policy',
     description:
-        'Privacy Policy for YuvanCabs Bengaluru — learn how we collect, use, and protect your personal information.',
+        'Privacy Policy for Click N Start Bengaluru — learn how we collect, use, and protect your personal information.',
     alternates: {
-        canonical: 'https://yuvancabs.com/privacy-policy',
+        canonical: 'https://clicknstart.com/privacy-policy',
     },
 };
 

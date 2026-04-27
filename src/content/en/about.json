@@ -1,17 +1,17 @@
 {
-    "heading": "About YuvanCabs",
+    "heading": "About Click N Start",
     "subheading": "Bengaluru's first wheelchair taxi with an automatic hydraulic lift.",
     "story": {
         "heading": "Our Story",
         "paragraphs": [
-            "YuvanCabs was born from a simple observation: wheelchair users and their caregivers in Bengaluru had no dignified, safe way to travel by taxi. Every existing option required physically lifting the passenger \u2014 an exhausting, risky, and undignified experience for everyone involved.",
-            "We asked ourselves: what if boarding a taxi was as effortless as pressing a button? That question led us to build Bengaluru's first wheelchair taxi equipped with an automatic hydraulic lift \u2014 eliminating physical strain entirely.",
-            "Today, YuvanCabs serves hundreds of families across Bengaluru, providing reliable transport for hospital visits, airport transfers, family events, and everyday city travel. Our mission is simple: make mobility accessible, dignified, and stress-free for every wheelchair user in the city."
+            "Click N Start was born from a simple observation: wheelchair users and their caregivers in Bengaluru had no dignified, safe way to travel by taxi. Every existing option required physically lifting the passenger — an exhausting, risky, and undignified experience for everyone involved.",
+            "We asked ourselves: what if boarding a taxi was as effortless as pressing a button? That question led us to build Bengaluru's first wheelchair taxi equipped with an automatic hydraulic lift — eliminating physical strain entirely.",
+            "Today, Click N Start serves hundreds of families across Bengaluru, providing reliable transport for hospital visits, airport transfers, family events, and everyday city travel. Our mission is simple: make mobility accessible, dignified, and stress-free for every wheelchair user in the city."
         ]
     },
     "mission": {
         "heading": "Our Mission",
-        "text": "To provide every wheelchair user in Bengaluru with safe, dignified, and effortless transportation \u2014 powered by technology that eliminates physical barriers."
+        "text": "To provide every wheelchair user in Bengaluru with safe, dignified, and effortless transportation — powered by technology that eliminates physical barriers."
     },
     "values": [
         {
@@ -32,7 +32,7 @@
         {
             "icon": "cleaning_services",
             "title": "Hygiene Standards",
-            "description": "Every vehicle is sanitized daily with hospital-grade disinfectants. Clean, fresh, and hygienic \u2014 every single ride."
+            "description": "Every vehicle is sanitized daily with hospital-grade disinfectants. Clean, fresh, and hygienic — every single ride."
         }
     ],
     "stats": [
@@ -49,16 +49,16 @@
             "label": "Service Hours"
         },
         {
-            "value": "4.9\u2605",
+            "value": "4.9★",
             "label": "Average Rating"
         }
     ],
     "cta": {
-        "heading": "Join hundreds of families who trust YuvanCabs",
+        "heading": "Join hundreds of families who trust Click N Start",
         "subheading": "Experience the difference that an automatic hydraulic lift makes.",
         "whatsapp": {
             "label": "Book Your First Ride",
-            "href": "https://www.yuvancabs.com/booking",
+            "href": "https://wa.me/918105825544",
             "ariaLabel": "Book your first ride via WhatsApp"
         },
         "phone": {

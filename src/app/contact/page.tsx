@@ -4,11 +4,11 @@ import CTABanner from '@/components/CTABanner';
 import { getContactPageData } from '@/lib/data';
 
 export const metadata: Metadata = {
-    title: 'Contact YuvanCabs — Wheelchair Taxi Bangalore',
+    title: 'Contact Click N Start — Wheelchair Taxi Bangalore',
     description:
-        'Get in touch with YuvanCabs for wheelchair accessible taxi booking in Bengaluru. Call +91 81058 25544 or message us on WhatsApp. Open 24/7.',
+        'Get in touch with Click N Start for wheelchair accessible taxi booking in Bengaluru. Call +91 81058 25544 or message us on WhatsApp. Open 24/7.',
     alternates: {
-        canonical: 'https://yuvancabs.com/contact',
+        canonical: 'https://clicknstart.com/contact',
     },
 };
 
@@ -113,7 +113,7 @@ export default function ContactPage() {
                                     allowFullScreen
                                     loading="lazy"
                                     referrerPolicy="no-referrer-when-downgrade"
-                                    title="YuvanCabs Bengaluru location on Google Maps"
+                                    title="Click N Start Bengaluru location on Google Maps"
                                 />
                             </div>
                         </div>

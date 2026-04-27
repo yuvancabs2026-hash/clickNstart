@@ -6,9 +6,9 @@ import { getServicesPageData } from '@/lib/data';
 export const metadata: Metadata = {
     title: 'Wheelchair Taxi Services in Bangalore',
     description:
-        'Airport transfers, hospital transport, outstation trips & package tours — all with automatic hydraulic lift. Book YuvanCabs\'s wheelchair accessible taxi in Bengaluru.',
+        'Airport transfers, hospital transport, outstation trips & package tours — all with automatic hydraulic lift. Book Click N Start\'s wheelchair accessible taxi in Bengaluru.',
     alternates: {
-        canonical: 'https://yuvancabs.com/services',
+        canonical: 'https://clicknstart.com/services',
     },
 };
 
@@ -18,7 +18,7 @@ const serviceSchema = {
     name: 'Wheelchair Accessible Taxi Service',
     provider: {
         '@type': 'LocalBusiness',
-        name: 'YuvanCabs Bengaluru',
+        name: 'Click N Start Bengaluru',
     },
     areaServed: {
         '@type': 'City',

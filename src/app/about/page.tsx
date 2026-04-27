@@ -4,11 +4,11 @@ import CTABanner from '@/components/CTABanner';
 import { getAboutPageData } from '@/lib/data';
 
 export const metadata: Metadata = {
-    title: 'About YuvanCabs — Wheelchair Taxi Service Bangalore',
+    title: 'About Click N Start — Wheelchair Taxi Service Bangalore',
     description:
-        'Learn about YuvanCabs — Bengaluru\'s first wheelchair taxi with automatic hydraulic lift. Our mission: dignified, safe, effortless mobility for every wheelchair user.',
+        'Learn about Click N Start — Bengaluru\'s first wheelchair taxi with automatic hydraulic lift. Our mission: dignified, safe, effortless mobility for every wheelchair user.',
     alternates: {
-        canonical: 'https://yuvancabs.com/about',
+        canonical: 'https://clicknstart.com/about',
     },
 };
 

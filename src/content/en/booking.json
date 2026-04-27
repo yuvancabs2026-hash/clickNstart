@@ -1,7 +1,7 @@
 {
-    "heading": "Book Your Wheelchair Taxi",
-    "subheading": "Tell us where you need to go and we'll arrange a comfortable, accessible ride for you.",
-    "whatsappTemplate": "Hi, I'd like to book a wheelchair taxi.\n\nName: {name}\nPhone: {phone}\nPickup: {pickup}\nDestination: {destination}\nDate & Time: {datetime}\nNotes: {notes}",
+    "heading": "Book Your Wheelchair Taxi with Click N Start",
+    "subheading": "Tell us where you need to go and we'll arrange a comfortable, accessible ride for you across Bengaluru.",
+    "whatsappTemplate": "Hi, I'd like to book a wheelchair taxi with Click N Start.\n\nName: {name}\nPhone: {phone}\nPickup: {pickup}\nDestination: {destination}\nDate & Time: {datetime}\nNotes: {notes}",
     "whatsappNumber": "918105825544",
     "instructions": [
         "Fill in the form below with your trip details",
