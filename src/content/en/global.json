@@ -27,12 +27,12 @@
         "ctaLabel": "Book a Ride",
         "ctaLabelShort": "Book",
         "statusLabel": "Driver Available",
-        "whatsappHref": "https://wa.me/918105825544"
+        "whatsappHref": "https://wa.me/918197814490"
     },
     "footer": {
         "brand": "CLICK-N-START",
         "tagline": "Empowering mobility for everyone in Bengaluru. Safety, comfort, and dignity in every ride.",
-        "phone": "+91 81058 25544",
+        "phone": "+91 81978 14490",
         "columns": [
             {
                 "title": "Service Areas",
@@ -109,7 +109,7 @@
         "copyright": "© 2026 Click N Start Bengaluru. All rights reserved."
     },
     "whatsapp": {
-        "href": "https://wa.me/918105825544",
+        "href": "https://wa.me/918197814490",
         "ariaLabel": "Chat on WhatsApp"
     }
 }

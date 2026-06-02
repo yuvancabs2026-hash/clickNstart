@@ -8,7 +8,7 @@
         },
         {
             "question": "How do I book a wheelchair taxi with Click N Start?",
-            "answer": "Booking is simple! Send us a message on WhatsApp with your pickup location, destination, and preferred date/time. You can also use our online booking form or call us directly at +91 81058 25544. We confirm bookings within 15 minutes."
+            "answer": "Booking is simple! Send us a message on WhatsApp with your pickup location, destination, and preferred date/time. You can also use our online booking form or call us directly at +91 81978 14490. We confirm bookings within 15 minutes."
         },
         {
             "question": "What makes your hydraulic lift different from manual ramps?",
@@ -56,12 +56,12 @@
         "subheading": "Reach out to us on WhatsApp and we'll be happy to help.",
         "whatsapp": {
             "label": "Ask on WhatsApp",
-            "href": "https://wa.me/918105825544",
+            "href": "https://wa.me/918197814490",
             "ariaLabel": "Ask a question on WhatsApp"
         },
         "phone": {
-            "label": "+91 81058 25544",
-            "href": "tel:+918105825544",
+            "label": "+91 81978 14490",
+            "href": "tel:+918197814490",
             "ariaLabel": "Call us"
         }
     }

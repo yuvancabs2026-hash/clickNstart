@@ -12,7 +12,7 @@ import WheelchairTaxiReels from '@/components/videos2';
 export const metadata: Metadata = {
   title: 'Wheelchair Accessible Taxi Service in Bangalore | Click N Start',
   description:
-    'Book Bengaluru\'s first wheelchair taxi with automatic hydraulic lift. Safe, dignified transport for hospital visits, airport transfers & city travel. Call +91 81058 25544.',
+    'Book Bengaluru\'s first wheelchair taxi with automatic hydraulic lift. Safe, dignified transport for hospital visits, airport transfers & city travel. Call +91 81978 14490.',
   alternates: {
     canonical: 'https://yuvancabs.in',
   },
@@ -25,7 +25,7 @@ const localBusinessSchema = {
   description:
     'Wheelchair accessible taxi service in Bangalore with automatic hydraulic lift. Safe, dignified, and hygienic travel for hospital visits, airport transfers, and city travel.',
   url: 'https://yuvancabs.in',
-  telephone: '+91-8105825544',
+  telephone: '+91-8197814490',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Bengaluru',

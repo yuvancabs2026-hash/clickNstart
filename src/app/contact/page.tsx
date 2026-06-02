@@ -6,7 +6,7 @@ import { getContactPageData } from '@/lib/data';
 export const metadata: Metadata = {
     title: 'Contact Click N Start — Wheelchair Taxi Bangalore',
     description:
-        'Get in touch with Click N Start for wheelchair accessible taxi booking in Bengaluru. Call +91 81058 25544 or message us on WhatsApp. Open 24/7.',
+        'Get in touch with Click N Start for wheelchair accessible taxi booking in Bengaluru. Call +91 81978 14490 or message us on WhatsApp. Open 24/7.',
     alternates: {
         canonical: 'https://clicknstart.in/contact',
     },

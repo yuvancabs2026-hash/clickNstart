@@ -170,7 +170,7 @@ const Footer: React.FC<FooterProps> = ({ data }) => {
 
                             {/* WhatsApp */}
                             <a
-                                href="https://wa.me/918105825544?text=Hi%20I%20want%20to%20book%20a%20wheelchair%20cab"
+                                href="https://wa.me/918197814490?text=Hi%20I%20want%20to%20book%20a%20wheelchair%20cab"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="WhatsApp"
@@ -181,7 +181,7 @@ const Footer: React.FC<FooterProps> = ({ data }) => {
 
                        {/* Call */}
 <a
-  href="tel:+918105825544"
+  href="tel:+918197814490"
   aria-label="Call Now"
   className="text-slate-400 hover:text-blue-500 transition-colors text-xl"
 >

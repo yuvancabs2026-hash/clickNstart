@@ -4,7 +4,7 @@
     "nap": {
         "name": "CLICK-N-START Bengaluru",
         "address": "Bengaluru, Karnataka, India",
-        "phone": "+91 81058 25544",
+        "phone": "+91 81978 14490",
         "email": "hello@clicknstart.in",
         "hours": "Open 24 hours, 7 days a week"
     },
@@ -14,12 +14,12 @@
         "subheading": "The fastest way to book is via WhatsApp. We respond within 15 minutes.",
         "whatsapp": {
             "label": "Book via WhatsApp",
-            "href": "https://wa.me/918105825544",
+            "href": "https://wa.me/918197814490",
             "ariaLabel": "Book via WhatsApp"
         },
         "phone": {
-            "label": "+91 81058 25544",
-            "href": "tel:+918105825544",
+            "label": "+91 81978 14490",
+            "href": "tel:+918197814490",
             "ariaLabel": "Call us"
         }
     }

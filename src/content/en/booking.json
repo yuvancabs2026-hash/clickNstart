@@ -2,7 +2,7 @@
     "heading": "Book Your Wheelchair Taxi with Click N Start",
     "subheading": "Tell us where you need to go and we'll arrange a comfortable, accessible ride for you across Bengaluru.",
     "whatsappTemplate": "Hi, I'd like to book a wheelchair taxi with Click N Start.\n\nName: {name}\nPhone: {phone}\nPickup: {pickup}\nDestination: {destination}\nDate & Time: {datetime}\nNotes: {notes}",
-    "whatsappNumber": "918105825544",
+    "whatsappNumber": "918197814490",
     "instructions": [
         "Fill in the form below with your trip details",
         "Click 'Send Booking via WhatsApp' to open WhatsApp with your details pre-filled",
@@ -14,12 +14,12 @@
         "subheading": "Our team is available 24/7 to assist you with bookings.",
         "whatsapp": {
             "label": "Chat on WhatsApp",
-            "href": "https://wa.me/918105825544",
+            "href": "https://wa.me/918197814490",
             "ariaLabel": "Chat on WhatsApp"
         },
         "phone": {
-            "label": "+91 81058 25544",
-            "href": "tel:+918105825544",
+            "label": "+91 81978 14490",
+            "href": "tel:+918197814490",
             "ariaLabel": "Call us"
         }
     }

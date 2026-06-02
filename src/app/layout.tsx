@@ -134,7 +134,7 @@ const organizationSchema = {
   description: "Bengaluru's premium wheelchair accessible taxi service with automated hydraulic lifts.",
   contactPoint: {
     "@type": "ContactPoint",
-    telephone: "+91-8105825544",
+    telephone: "+91-8197814490",
     contactType: "customer service",
     areaServed: "Bengaluru",
     availableLanguage: ["en", "kn", "hi"],
