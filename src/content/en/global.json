@@ -35,30 +35,30 @@
         "phone": "+91 81978 14490",
         "columns": [
             {
-                "title": "Service Areas",
-                "links": [
-                    {
-                        "label": "Indiranagar",
-                        "href": "/routes/indiranagar"
-                    },
-                    {
-                        "label": "Koramangala",
-                        "href": "/routes/koramangala"
-                    },
-                    {
-                        "label": "Whitefield",
-                        "href": "/routes/whitefield"
-                    },
-                    {
-                        "label": "Jayanagar",
-                        "href": "/routes/jayanagar"
-                    },
-                    {
-                        "label": "HSR Layout",
-                        "href": "/routes/hsr-layout"
-                    }
-                ]
-            },
+    "title": "Areas We Serve",
+    "links": [
+        {
+            "label": "Across Bangalore",
+            "href": "/routes/indiranagar"
+        },
+        {
+            "label": "Airport Transfers",
+            "href": "/routes/koramangala"
+        },
+        {
+            "label": "Hospital Trips",
+            "href": "/routes/whitefield"
+        },
+        {
+            "label": "Outstation Rides",
+            "href": "/routes/jayanagar"
+        },
+        {
+            "label": "Nearby Cities",
+            "href": "/routes/hsr-layout"
+        }
+    ]
+},
             {
                 "title": "Company",
                 "links": [
