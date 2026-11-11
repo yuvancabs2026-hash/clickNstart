@@ -13,17 +13,19 @@ const WheelchairTaxiVideo = () => {
         </h2>
 
         <p className="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto mb-14">
-          Our specialized wheelchair taxi uses a **hydraulic lift system**
-          to safely transfer patients into the vehicle without lifting or
-          physical strain. Patients remain seated in their wheelchair,
-          ensuring **maximum comfort, safety, and dignity** during transport.
+          Our specialized wheelchair taxi uses a{" "}
+          <strong>hydraulic lift system</strong> to safely transfer patients
+          into the vehicle without lifting or physical strain. Patients remain
+          seated in their wheelchair, ensuring{" "}
+          <strong>maximum comfort, safety, and dignity</strong> during
+          transport.
         </p>
 
         {/* Video Section */}
         <div className="relative flex justify-center items-center">
 
           {/* Floating Card 1 */}
-          <div className="hidden md:block absolute -left-10 top-10 bg-white dark:bg-slate-800 shadow-xl border border-slate-200 dark:border-slate-700 p-4 rounded-xl max-w-[200px] text-left">
+          <div className="hidden md:block absolute left-0 lg:left-10 top-10 z-10 bg-white dark:bg-slate-800 shadow-xl border border-slate-200 dark:border-slate-700 p-4 rounded-xl max-w-[200px] text-left">
             <h3 className="font-semibold text-sm text-slate-900 dark:text-white mb-1">
               Hydraulic Lift System
             </h3>
@@ -33,7 +35,7 @@ const WheelchairTaxiVideo = () => {
           </div>
 
           {/* Floating Card 2 */}
-          <div className="hidden md:block absolute -right-10 top-20 bg-white dark:bg-slate-800 shadow-xl border border-slate-200 dark:border-slate-700 p-4 rounded-xl max-w-[200px] text-left">
+          <div className="hidden md:block absolute right-0 lg:right-10 top-20 z-10 bg-white dark:bg-slate-800 shadow-xl border border-slate-200 dark:border-slate-700 p-4 rounded-xl max-w-[200px] text-left">
             <h3 className="font-semibold text-sm text-slate-900 dark:text-white mb-1">
               No Physical Strain
             </h3>
@@ -42,18 +44,17 @@ const WheelchairTaxiVideo = () => {
             </p>
           </div>
 
-          
-
-          {/* Video */}
-          <div className="relative w-full max-w-3xl overflow-hidden rounded-2xl shadow-2xl border border-slate-200 dark:border-slate-700">
-            <div className="relative pb-[56.25%] h-0">
+          {/* Video (vertical 9:16 for YouTube Shorts) */}
+          <div className="relative w-full max-w-[320px] sm:max-w-[360px] overflow-hidden rounded-2xl shadow-2xl border border-slate-200 dark:border-slate-700 bg-black">
+            <div className="relative w-full" style={{ paddingBottom: "177.78%" }}>
               <iframe
                 className="absolute top-0 left-0 w-full h-full"
-                // https://youtu.be/xbn5IdLhSnA
-                src="https://www.youtube.com/shorts/g6yrEDt0XWM?rel=0&modestbranding=1&controls=1"
+                src="https://www.youtube.com/embed/g6yrEDt0XWM?rel=0&modestbranding=1&controls=1&playsinline=1"
                 title="Wheelchair Taxi Hydraulic Lift Demo"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
+                loading="lazy"
               />
             </div>
           </div>
@@ -62,12 +63,15 @@ const WheelchairTaxiVideo = () => {
 
         {/* SEO Text Block */}
         <div className="max-w-3xl mx-auto mt-16 text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
-          Our wheelchair accessible taxi service is designed for **elderly
-          patients, hospital transfers, dialysis visits, rehabilitation
-          transport, and non-emergency medical travel**. The hydraulic lift
-          technology eliminates manual lifting, making it safer for both
-          caregivers and passengers. This system ensures reliable,
-          comfortable, and secure transportation for wheelchair users.
+          Our wheelchair accessible taxi service is designed for{" "}
+          <strong>
+            elderly patients, hospital transfers, dialysis visits,
+            rehabilitation transport, and non-emergency medical travel
+          </strong>
+          . The hydraulic lift technology eliminates manual lifting, making it
+          safer for both caregivers and passengers. This system ensures
+          reliable, comfortable, and secure transportation for wheelchair
+          users.
         </div>
 
       </div>
