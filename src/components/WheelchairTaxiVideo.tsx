@@ -50,7 +50,7 @@ const WheelchairTaxiVideo = () => {
               <iframe
                 className="absolute top-0 left-0 w-full h-full"
                 // https://youtu.be/xbn5IdLhSnA
-                src="https://www.youtube.com/embed/xbn5IdLhSnA?rel=0&modestbranding=1&controls=1"
+                src="https://www.youtube.com/shorts/g6yrEDt0XWM?rel=0&modestbranding=1&controls=1"
                 title="Wheelchair Taxi Hydraulic Lift Demo"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
