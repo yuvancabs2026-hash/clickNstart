@@ -113,7 +113,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaInstagram, FaWhatsapp, FaPhone, FaMobile } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp, FaMobile } from "react-icons/fa";
 import type { FooterData } from '@/types/content';
 
 interface FooterProps {

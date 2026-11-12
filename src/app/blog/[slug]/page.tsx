@@ -1,6 +1,8 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { MDXRemote } from 'next-mdx-remote/rsc';
+import type { MDXComponents } from 'mdx/types';
+import type { ComponentProps } from 'react';
 import { getBlogPost, getAllBlogSlugs, getBookingPageData } from '@/lib/data';
 import CTABanner from '@/components/CTABanner';
 import Breadcrumbs from '@/components/Breadcrumbs';
@@ -40,17 +42,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     };
 }
 
-const components = {
-    h1: (props: any) => <h1 className="text-3xl lg:text-4xl font-bold mt-8 mb-4 text-slate-900" {...props} />,
-    h2: (props: any) => <h2 className="text-2xl lg:text-3xl font-bold mt-10 mb-4 text-slate-900" {...props} />,
-    h3: (props: any) => <h3 className="text-xl lg:text-2xl font-bold mt-8 mb-3 text-slate-900" {...props} />,
-    p: (props: any) => <p className="text-lg text-slate-700 leading-relaxed mb-6" {...props} />,
-    ul: (props: any) => <ul className="list-disc list-inside text-lg text-slate-700 leading-relaxed mb-6 space-y-2" {...props} />,
-    ol: (props: any) => <ol className="list-decimal list-inside text-lg text-slate-700 leading-relaxed mb-6 space-y-2" {...props} />,
-    li: (props: any) => <li className="pl-2" {...props} />,
-    a: (props: any) => <a className="text-brand-teal hover:text-brand-cyan hover:underline underline-offset-4 transition-colors" {...props} />,
-    blockquote: (props: any) => <blockquote className="border-l-4 border-brand-teal pl-6 italic text-slate-600 my-8 py-2 bg-slate-50 rounded-r-lg" {...props} />,
-    strong: (props: any) => <strong className="font-semibold text-slate-900" {...props} />,
+const components: MDXComponents = {
+    h1: (props: ComponentProps<'h1'>) => <h1 className="text-3xl lg:text-4xl font-bold mt-8 mb-4 text-slate-900" {...props} />,
+    h2: (props: ComponentProps<'h2'>) => <h2 className="text-2xl lg:text-3xl font-bold mt-10 mb-4 text-slate-900" {...props} />,
+    h3: (props: ComponentProps<'h3'>) => <h3 className="text-xl lg:text-2xl font-bold mt-8 mb-3 text-slate-900" {...props} />,
+    p: (props: ComponentProps<'p'>) => <p className="text-lg text-slate-700 leading-relaxed mb-6" {...props} />,
+    ul: (props: ComponentProps<'ul'>) => <ul className="list-disc list-inside text-lg text-slate-700 leading-relaxed mb-6 space-y-2" {...props} />,
+    ol: (props: ComponentProps<'ol'>) => <ol className="list-decimal list-inside text-lg text-slate-700 leading-relaxed mb-6 space-y-2" {...props} />,
+    li: (props: ComponentProps<'li'>) => <li className="pl-2" {...props} />,
+    a: (props: ComponentProps<'a'>) => <a className="text-brand-teal hover:text-brand-cyan hover:underline underline-offset-4 transition-colors" {...props} />,
+    blockquote: (props: ComponentProps<'blockquote'>) => <blockquote className="border-l-4 border-brand-teal pl-6 italic text-slate-600 my-8 py-2 bg-slate-50 rounded-r-lg" {...props} />,
+    strong: (props: ComponentProps<'strong'>) => <strong className="font-semibold text-slate-900" {...props} />,
 };
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {

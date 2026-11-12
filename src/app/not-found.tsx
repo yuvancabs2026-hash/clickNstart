@@ -21,7 +21,7 @@ export default function NotFound() {
                         <div className="absolute -bottom-2 left-1/4 right-1/4 h-1 bg-gradient-to-r from-brand-teal/0 via-brand-teal to-brand-teal/0 rounded-full"></div>
                     </h2>
                     <p className="text-lg text-slate-600 mb-10 max-w-md mx-auto leading-relaxed">
-                        It looks like this route isn't on our map. The page might have been moved, or maybe we just took a wrong turn. Let's get you back on track!
+                        It looks like this route isn&apos;t on our map. The page might have been moved, or maybe we just took a wrong turn. Let&apos;s get you back on track!
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
