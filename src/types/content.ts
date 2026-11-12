@@ -254,14 +254,22 @@ export interface LegalPageData {
 export interface RoutePageData {
     metaTitle: string;
     metaDescription: string;
+    keywords?: string[];
     h1: string;
     destination: string;
     slug: string;
+    city?: string;
     travelTime: string;
     distance: string;
     pricingEstimate: string;
     landmarks: string[];
     description: string;
+    contentSections?: Array<{
+        heading: string;
+        paragraphs: string[];
+        list?: string[];
+    }>;
+    faqs?: FAQItem[];
     cta: CTAData;
 }
 

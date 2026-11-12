@@ -4,11 +4,18 @@ import CTABanner from '@/components/CTABanner';
 import { getAboutPageData } from '@/lib/data';
 
 export const metadata: Metadata = {
-    title: 'About Click N Start — Wheelchair Taxi Service Bangalore',
+    title: 'About Click N Start — Accessible Taxi in Bengaluru & Chennai',
     description:
-        'Learn about Click N Start — Bengaluru\'s first wheelchair taxi with automatic hydraulic lift. Our mission: dignified, safe, effortless mobility for every wheelchair user.',
+        'Learn about Click N Start and our wheelchair-accessible taxi service in Bengaluru and Chennai, built around safe boarding, dignity, and easier everyday mobility.',
+    keywords: [
+        'Click N Start wheelchair taxi',
+        'accessible taxi Bengaluru',
+        'wheelchair cab Chennai',
+        'wheelchair transport service India',
+        'inclusive mobility service',
+    ],
     alternates: {
-        canonical: 'https://clicknstart.in/about',
+        canonical: '/about',
     },
 };
 

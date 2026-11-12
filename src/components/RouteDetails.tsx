@@ -2,7 +2,17 @@ import React from 'react';
 import type { RoutePageData } from '@/types/content';
 
 interface RouteDetailsProps {
-    data: Pick<RoutePageData, 'travelTime' | 'distance' | 'pricingEstimate' | 'landmarks' | 'description' | 'destination'>;
+    data: Pick<
+        RoutePageData,
+        | 'travelTime'
+        | 'distance'
+        | 'pricingEstimate'
+        | 'landmarks'
+        | 'description'
+        | 'destination'
+        | 'contentSections'
+        | 'faqs'
+    >;
 }
 
 const RouteDetails: React.FC<RouteDetailsProps> = ({ data }) => {
@@ -56,6 +66,42 @@ const RouteDetails: React.FC<RouteDetailsProps> = ({ data }) => {
                         </p>
                     </div>
                 </div>
+
+                {data.contentSections?.map((section) => (
+                    <section key={section.heading} className="mt-12 max-w-4xl mx-auto">
+                        <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-5">
+                            {section.heading}
+                        </h2>
+                        {section.paragraphs.map((paragraph) => (
+                            <p key={paragraph} className="text-slate-600 leading-relaxed mb-4">
+                                {paragraph}
+                            </p>
+                        ))}
+                        {section.list && (
+                            <ul className="list-disc pl-6 space-y-2 text-slate-600 leading-relaxed">
+                                {section.list.map((item) => <li key={item}>{item}</li>)}
+                            </ul>
+                        )}
+                    </section>
+                ))}
+
+                {data.faqs && data.faqs.length > 0 && (
+                    <section className="mt-12 max-w-4xl mx-auto" aria-label="Wheelchair taxi FAQs">
+                        <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-5">
+                            Wheelchair Taxi FAQs
+                        </h2>
+                        <div className="space-y-6">
+                            {data.faqs.map((faq) => (
+                                <div key={faq.question}>
+                                    <h3 className="text-lg font-semibold text-slate-900 mb-2">
+                                        {faq.question}
+                                    </h3>
+                                    <p className="text-slate-600 leading-relaxed">{faq.answer}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </section>
+                )}
             </div>
         </section>
     );

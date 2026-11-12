@@ -1,7 +1,7 @@
 {
     "nav": {
         "brand": "CLICK-N-START",
-        "tagline": "Bengaluru",
+        "tagline": "Bengaluru & Chennai",
         "navLinks": [
             {
                 "label": "Home",
@@ -31,7 +31,7 @@
     },
     "footer": {
         "brand": "CLICK-N-START",
-        "tagline": "Empowering mobility for everyone in Bengaluru. Safety, comfort, and dignity in every ride.",
+        "tagline": "Empowering mobility for everyone in Bengaluru and Chennai. Safety, comfort, and dignity in every ride.",
         "phone": "+91 81978 14490",
         "columns": [
             {
@@ -40,6 +40,10 @@
         {
             "label": "Across Bangalore",
             "href": "/routes/indiranagar"
+        },
+        {
+            "label": "Wheelchair Cabs in Chennai",
+            "href": "/routes/wheelchair-taxi-chennai"
         },
         {
             "label": "Airport Transfers",

@@ -22,59 +22,36 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
-/** Default metadata — expanded for Phase 2 (SEO). */
-// export const metadata: Metadata = {
-//   metadataBase: new URL("https://yuvancabs.com"),
-//   title: {
-//     default: "YuvanCabs Bengaluru - Premium Wheelchair Taxi",
-//     template: "%s | YuvanCabs",
-//   },
-//   description:
-//     "Bengaluru's first automated wheelchair taxi with a hydraulic lift. Safe, dignified, and hygienic travel for hospital visits and city travel.",
-//   keywords: [
-//     "wheelchair taxi bengaluru",
-//     "accessible transport",
-//     "hydraulic lift taxi",
-//     "disability transport bangalore",
-//     "hospital discharge transport",
-//     "wheelchair cab bangalore",
-//   ],
-//   openGraph: {
-//     title: "YuvanCabs Bengaluru - Premium Wheelchair Taxi",
-//     description: "Bengaluru's first automated wheelchair taxi with a hydraulic lift. Safe, dignified, and hygienic travel for hospital visits and city travel.",
-//     url: "https://yuvancabs.com",
-//     siteName: "YuvanCabs",
-//     locale: "en_IN",
-//     type: "website",
-//   },
-//   twitter: {
-//     card: "summary_large_image",
-//     title: "YuvanCabs Bengaluru - Premium Wheelchair Taxi",
-//     description: "Bengaluru's first automated wheelchair taxi with a hydraulic lift. Safe, dignified, and hygienic travel for hospital visits and city travel.",
-//   },
-// };
-
 export const metadata: Metadata = {
   metadataBase: new URL("https://clicknstart.in"),
-
   title: {
-    default: "Click N Start Bengaluru - Premium Wheelchair Taxi",
+    default: "Wheelchair Taxi in Bengaluru & Chennai | Click N Start",
     template: "%s | Click N Start",
   },
-
   description:
-    "Bengaluru's first automated wheelchair taxi with a hydraulic lift. Safe, dignified, and hygienic travel for hospital visits and city travel.",
-
+    "Book wheelchair-accessible cabs in Bengaluru and Chennai. Click N Start offers hydraulic-lift transport for hospital visits, dialysis, airport transfers, and everyday travel.",
   keywords: [
-    "wheelchair taxi bengaluru",
-    "accessible transport",
+    "wheelchair taxi Bengaluru",
+    "wheelchair taxi Bangalore",
+    "wheelchair cab Bengaluru",
+    "wheelchair cab Bangalore",
+    "accessible taxi Bengaluru",
+    "accessible cab Bangalore",
+    "wheelchair taxi Chennai",
+    "wheelchair cab Chennai",
+    "accessible taxi Chennai",
     "hydraulic lift taxi",
-    "disability transport bangalore",
-    "hospital discharge transport",
-    "wheelchair cab bangalore",
+    "wheelchair van with lift",
+    "hospital transport for wheelchair users",
+    "dialysis transport wheelchair",
+    "wheelchair taxi for hospital appointments",
+    "non emergency medical transport",
+    "wheelchair airport taxi",
+    "senior citizen accessible cab",
+    "mobility assistance taxi",
+    "wheelchair transportation service",
+    "accessible medical appointment transport",
   ],
-
-  // ✅ ICONS (this is what you need)
   icons: {
     icon: [
       { url: "/favicon.ico" },
@@ -96,18 +73,17 @@ export const metadata: Metadata = {
     ],
   },
 
-  // ✅ OPEN GRAPH (for WhatsApp, LinkedIn, etc.)
   openGraph: {
-    title: "Click N Start Bengaluru - Premium Wheelchair Taxi",
+    title: "Wheelchair Taxi in Bengaluru & Chennai | Click N Start",
     description:
-      "Bengaluru's first automated wheelchair taxi with a hydraulic lift.",
+      "Wheelchair-accessible cabs with a hydraulic lift for hospital visits, dialysis, airport transfers, and everyday rides in Bengaluru and Chennai.",
     url: "https://clicknstart.in",
     siteName: "Click N Start",
     locale: "en_IN",
     type: "website",
     images: [
       {
-        url: "/android-chrome-512x512.png", // 👈 use this as OG image (or better: custom banner later)
+        url: "/android-chrome-512x512.png",
         width: 512,
         height: 512,
         alt: "Click N Start Wheelchair Taxi",
@@ -115,12 +91,11 @@ export const metadata: Metadata = {
     ],
   },
 
-  // ✅ TWITTER CARDS
   twitter: {
     card: "summary_large_image",
-    title: "Click N Start Bengaluru - Premium Wheelchair Taxi",
+    title: "Wheelchair Taxi in Bengaluru & Chennai | Click N Start",
     description:
-      "Safe, dignified wheelchair-accessible transport in Bengaluru.",
+      "Safe, dignified wheelchair-accessible transport for hospital visits and daily travel.",
     images: ["/android-chrome-512x512.png"],
   },
 };
@@ -128,15 +103,15 @@ export const metadata: Metadata = {
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "Click N Start Bengaluru",
+  name: "Click N Start",
   url: "https://clicknstart.in",
   logo: "https://clicknstart.in/icon.svg",
-  description: "Bengaluru's premium wheelchair accessible taxi service with automated hydraulic lifts.",
+  description: "Wheelchair-accessible taxi service with hydraulic lifts in Bengaluru and Chennai.",
   contactPoint: {
     "@type": "ContactPoint",
     telephone: "+91-8197814490",
     contactType: "customer service",
-    areaServed: "Bengaluru",
+    areaServed: ["Bengaluru", "Chennai"],
     availableLanguage: ["en", "kn", "hi"],
   },
 };

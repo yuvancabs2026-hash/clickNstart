@@ -10,21 +10,38 @@ import BookingNotice from '@/components/BookingNotice';
 import WheelchairTaxiReels from '@/components/videos2';
 
 export const metadata: Metadata = {
-  title: 'Wheelchair Accessible Taxi Service in Bangalore | Click N Start',
+  title: 'Wheelchair Taxi in Bengaluru (Bangalore) & Chennai',
   description:
-    'Book Bengaluru\'s first wheelchair taxi with automatic hydraulic lift. Safe, dignified transport for hospital visits, airport transfers & city travel. Call +91 81978 14490.',
+    'Book a wheelchair taxi in Bengaluru or Chennai. Automatic hydraulic lift cabs for hospital visits, dialysis appointments, airport transfers, and city travel. Call +91 81978 14490.',
+  keywords: [
+    'wheelchair taxi Bengaluru',
+    'wheelchair taxi Bangalore',
+    'wheelchair cab Bengaluru',
+    'wheelchair cab Bangalore',
+    'accessible cabs Bengaluru',
+    'wheelchair taxi Chennai',
+    'wheelchair cab Chennai',
+    'wheelchair accessible taxi service',
+    'hydraulic lift wheelchair taxi',
+    'hospital wheelchair transport',
+    'dialysis appointment cab',
+    'wheelchair airport transfer',
+    'non emergency medical transportation',
+    'taxi for senior citizens with limited mobility',
+    'accessible transport for medical appointments',
+  ],
   alternates: {
-    canonical: 'https://yuvancabs.in',
+    canonical: '/',
   },
 };
 
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': ['LocalBusiness', 'TaxiService'],
-  name: 'Click N Start Bengaluru',
+  name: 'Click N Start',
   description:
     'Wheelchair accessible taxi service in Bangalore with automatic hydraulic lift. Safe, dignified, and hygienic travel for hospital visits, airport transfers, and city travel.',
-  url: 'https://yuvancabs.in',
+  url: 'https://clicknstart.in',
   telephone: '+91-8197814490',
   address: {
     '@type': 'PostalAddress',
@@ -32,10 +49,10 @@ const localBusinessSchema = {
     addressRegion: 'Karnataka',
     addressCountry: 'IN',
   },
-  areaServed: {
-    '@type': 'City',
-    name: 'Bengaluru',
-  },
+  areaServed: [
+    { '@type': 'City', name: 'Bengaluru' },
+    { '@type': 'City', name: 'Chennai' },
+  ],
   priceRange: '₹₹',
   openingHours: 'Mo-Su 00:00-23:59',
   sameAs: [],
@@ -59,12 +76,13 @@ export default function Home() {
       />
       <Hero data={data.hero} />
       <BookingNotice/>
+            <PatientStoriesGallery/>
+
       <FeatureGrid data={data.features} />
       <TestimonialCarousel data={data.testimonials} />
       <WheelchairTaxiReels/>
       <WheelchairTaxiVideo/>
       <CTABanner data={data.cta} />
-      <PatientStoriesGallery/>
     </main>
   );
 }

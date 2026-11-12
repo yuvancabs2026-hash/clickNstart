@@ -4,11 +4,18 @@ import CTABanner from '@/components/CTABanner';
 import { getContactPageData } from '@/lib/data';
 
 export const metadata: Metadata = {
-    title: 'Contact Click N Start — Wheelchair Taxi Bangalore',
+    title: 'Contact Click N Start — Wheelchair Taxi Bengaluru & Chennai',
     description:
-        'Get in touch with Click N Start for wheelchair accessible taxi booking in Bengaluru. Call +91 81978 14490 or message us on WhatsApp. Open 24/7.',
+        'Contact Click N Start to book a wheelchair taxi in Bengaluru or Chennai. Call or WhatsApp +91 81978 14490 to check availability and get a trip quote.',
+    keywords: [
+        'wheelchair taxi contact Bengaluru',
+        'wheelchair taxi phone number Bangalore',
+        'wheelchair cab booking Chennai',
+        'accessible taxi WhatsApp booking',
+        'wheelchair hospital cab contact',
+    ],
     alternates: {
-        canonical: 'https://clicknstart.in/contact',
+        canonical: '/contact',
     },
 };
 

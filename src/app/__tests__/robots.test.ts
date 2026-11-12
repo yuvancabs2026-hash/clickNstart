@@ -13,6 +13,6 @@ describe("Robots Generator", () => {
             expect(result.rules.allow).toBe("/");
         }
 
-        expect(result.sitemap).toBe("https://yuvancabs.com/sitemap.xml");
+        expect(result.sitemap).toBe("https://clicknstart.in/sitemap.xml");
     });
 });

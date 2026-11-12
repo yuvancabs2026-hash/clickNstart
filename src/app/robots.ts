@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
             userAgent: '*',
             allow: '/',
         },
-        sitemap: 'https://yuvancabs.com/sitemap.xml',
+        sitemap: 'https://clicknstart.in/sitemap.xml',
     };
 }

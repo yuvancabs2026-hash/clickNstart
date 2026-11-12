@@ -19,8 +19,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     if (!post) return {};
 
     return {
-        title: `${post.frontmatter.title} | WheelchairTaxi Bangalore`,
+        title: post.frontmatter.title,
         description: post.frontmatter.description,
+        keywords: post.frontmatter.keywords,
         alternates: {
             canonical: `/blog/${slug}`,
         },
@@ -67,8 +68,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         "headline": post.frontmatter.title,
         "description": post.frontmatter.description,
         "datePublished": post.frontmatter.date,
-        "author": { "@type": "Organization", "name": "WheelchairTaxi Bangalore" },
-        "publisher": { "@type": "Organization", "name": "WheelchairTaxi Bangalore" },
+        "author": { "@type": "Organization", "name": "Click N Start" },
+        "publisher": { "@type": "Organization", "name": "Click N Start" },
         "mainEntityOfPage": `https://clicknstart.in/blog/${slug}`
     };
 

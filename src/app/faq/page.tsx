@@ -5,11 +5,19 @@ import FAQAccordion from '@/components/FAQAccordion';
 import { getFAQPageData } from '@/lib/data';
 
 export const metadata: Metadata = {
-    title: 'FAQ — Wheelchair Taxi Bangalore',
+    title: 'Wheelchair Taxi FAQs — Bengaluru & Chennai',
     description:
-        'Answers to common questions about wheelchair taxi service in Bangalore — pricing, booking process, hydraulic lift, hospital transport, areas covered, and more.',
+        'Answers about wheelchair cab bookings, hydraulic lifts, hospital and dialysis trips, fares, airport rides, and service areas in Bengaluru and Chennai.',
+    keywords: [
+        'wheelchair taxi FAQ Bangalore',
+        'wheelchair taxi FAQ Chennai',
+        'wheelchair cab price',
+        'dialysis transport questions',
+        'wheelchair airport pickup',
+        'accessible hospital transport',
+    ],
     alternates: {
-        canonical: 'https://clicknstart.in/faq',
+        canonical: '/faq',
     },
 };
 

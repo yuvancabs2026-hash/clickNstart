@@ -5,8 +5,16 @@ import CTABanner from '@/components/CTABanner';
 import { getBookingPageData } from '@/lib/data';
 
 export const metadata: Metadata = {
-    title: 'Blog | WheelchairTaxi Bangalore',
-    description: 'Read the latest guides, tips, and news about accessible transport and wheelchair taxis in Bangalore.',
+    title: 'Wheelchair Taxi & Accessible Travel Guides',
+    description: 'Practical guides to wheelchair taxis, hospital and dialysis transport, accessible airport rides, and travel planning in Bengaluru and Chennai.',
+    keywords: [
+        'wheelchair taxi guides India',
+        'wheelchair transport advice Bengaluru',
+        'accessible travel Chennai',
+        'dialysis transport guide',
+        'wheelchair hospital transport tips',
+        'accessible cab booking guide',
+    ],
     alternates: {
         canonical: '/blog',
     },

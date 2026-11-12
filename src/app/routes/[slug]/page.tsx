@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { getRoutePageData, getAllRouteSlugs } from '@/lib/data';
 import RouteDetails from '@/components/RouteDetails';
 import CTABanner from '@/components/CTABanner';
+import HeroBookingForm from '@/components/HeroBookingForm';
 
 export async function generateStaticParams() {
     const slugs = await getAllRouteSlugs();
@@ -19,6 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     return {
         title: data.metaTitle,
         description: data.metaDescription,
+        keywords: data.keywords,
         alternates: {
             canonical: `/routes/${slug}`,
         },
@@ -61,14 +63,33 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
         "url": `https://clicknstart.in/routes/${slug}`,
         "provider": {
             "@type": "LocalBusiness",
-            "name": "WheelchairTaxi Bangalore"
+            "name": "Click N Start",
+            "telephone": "+91-8197814490"
         },
-        "areaServed": "Bengaluru",
+        "areaServed": {
+            "@type": "City",
+            "name": data.city ?? "Bengaluru"
+        },
         "serviceArea": {
             "@type": "Place",
             "name": data.destination
         }
     };
+
+    const faqSchema = data.faqs?.length
+        ? {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": data.faqs.map((faq) => ({
+                "@type": "Question",
+                "name": faq.question,
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": faq.answer
+                }
+            }))
+        }
+        : null;
 
     return (
         <>
@@ -76,6 +97,12 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
             />
+            {faqSchema && (
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+                />
+            )}
             <main className="pt-24 lg:pt-32">
                 <div className="bg-brand-cyan/5 py-12 lg:py-16 text-center border-b border-brand-cyan/10">
                     <div className="max-w-4xl mx-auto px-4">
@@ -85,6 +112,11 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
                         <p className="text-xl text-slate-600 font-medium">
                             Reliable, accessible transport with an automatic hydraulic lift.
                         </p>
+                        {slug === 'wheelchair-taxi-chennai' && (
+                            <div className="mx-auto mt-8 max-w-2xl text-left">
+                                <HeroBookingForm />
+                            </div>
+                        )}
                     </div>
                 </div>
                 <RouteDetails data={data} />

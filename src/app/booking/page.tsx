@@ -5,11 +5,21 @@ import BookingForm from '@/components/BookingForm';
 import { getBookingPageData } from '@/lib/data';
 
 export const metadata: Metadata = {
-    title: 'Book a Wheelchair Taxi in Bangalore',
+    title: 'Book a Wheelchair Taxi in Bengaluru or Chennai',
     description:
-        'Book Click N Start — Bengaluru\'s wheelchair accessible taxi with hydraulic lift. Easy WhatsApp booking, confirmed in 15 minutes. Call +91 81978 14490.',
+        'Book a wheelchair-accessible cab in Bengaluru or Chennai for hospital visits, dialysis, airport transfers, or city travel. Call or WhatsApp +91 81978 14490.',
+    keywords: [
+        'book wheelchair taxi Bengaluru',
+        'book wheelchair cab Bangalore',
+        'book wheelchair taxi Chennai',
+        'wheelchair taxi booking online',
+        'hospital cab booking for wheelchair users',
+        'dialysis cab booking',
+        'wheelchair airport cab booking',
+        'accessible cab phone booking',
+    ],
     alternates: {
-        canonical: 'https://clicknstart.in/booking',
+        canonical: '/booking',
     },
 };
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import type { HeroData } from '@/types/content';
+import HeroBookingForm from '@/components/HeroBookingForm';
 
 interface HeroProps {
     data: HeroData;
@@ -8,7 +9,7 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({ data }) => {
     return (
-        <header className="relative pt-12 pb-20 lg:pt-28 lg:pb-32 overflow-hidden">
+        <header className="relative overflow-hidden py-12 lg:py-20">
             {/* Background Decor */}
             <div className="absolute inset-0 z-0 pointer-events-none">
                 <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-primary/5 to-transparent"></div>
@@ -16,64 +17,25 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
             </div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-                <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
-                    {/* Content */}
-                    <div className="flex-1 text-center lg:text-left">
-                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-100 text-primary font-semibold text-sm mb-6 border border-slate-200">
-                            <span className="material-symbols-outlined text-base">accessible_forward</span>
-                            <span>{data.badge}</span>
-                        </div>
+                <h1 className="mb-8 max-w-6xl font-display text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-5xl lg:mb-10 lg:text-6xl">
+                    {data.headingLine1}{' '}
+                    <br />
+                    <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                        {data.headingHighlight}
+                    </span>
+                </h1>
 
-                        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-extrabold tracking-tight text-slate-900 leading-[1.15] mb-6">
-                            {data.headingLine1}{' '}
-                            <br className="hidden lg:block" />
-                            <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">
-                                {data.headingHighlight}
-                            </span>
-                        </h1>
-
-                        <p className="text-lg sm:text-xl text-slate-600 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                            {data.description}
-                        </p>
-
-                        <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                            <a
-href="tel:+918197814490"                                    className="bg-slate-900 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl hover:scale-105 transition-transform flex items-center justify-center gap-2"
-                                aria-label={data.ctaPrimary.ariaLabel}
-                            >
-                                {data.ctaPrimary.label}
-                                <span className="material-symbols-outlined">arrow_forward</span>
-                            </a>
-                            <a
-    href="https://youtu.be/xbn5IdLhSnA"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="bg-white text-slate-900 border border-slate-200 px-8 py-4 rounded-xl font-bold text-lg hover:bg-slate-50 transition-colors flex items-center justify-center gap-2"
-    aria-label="Watch wheelchair taxi hydraulic lift demo video"
->
-    <span className="material-symbols-outlined text-primary">
-        {data.ctaSecondary.icon}
-    </span>
-    {data.ctaSecondary.label}
-</a>
-                        </div>
-
-                        <div className="mt-10 flex items-center justify-center lg:justify-start gap-8 text-slate-500">
-                            {data.trustBadges.map((badge) => (
-                                <div key={badge.label} className="flex items-center gap-2">
-                                    <span className="material-symbols-outlined text-green-500">check_circle</span>
-                                    <span className="text-sm font-medium">{badge.label}</span>
-                                </div>
-                            ))}
-                        </div>
+                <div className="grid items-start gap-8 md:grid-cols-2 md:gap-8 xl:gap-16">
+                    <div className="relative z-20 w-full">
+                        <HeroBookingForm />
                     </div>
 
                     {/* Hero Image Visual */}
-                    <div className="flex-1 w-full relative">
+                    <div className="relative z-0 w-full">
                         <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl relative bg-slate-200 group">
                             <Image
                                 src="/images/hero.png"
-                                alt="Wheelchair accessible taxi with automatic hydraulic lift in Bangalore"
+                                alt="Wheelchair-accessible taxi with an automatic hydraulic lift"
                                 fill
                                 className="object-cover transition-transform duration-700 group-hover:scale-105"
                                 priority
@@ -105,6 +67,40 @@ href="tel:+918197814490"                                    className="bg-slate-
                         <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-primary/20 rounded-full blur-2xl z-0"></div>
                     </div>
                 </div>
+
+                <section className="mt-10 max-w-5xl" aria-label="Wheelchair taxi service information">
+                    <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-100 px-4 py-2 text-sm font-semibold text-primary">
+                        <span className="material-symbols-outlined text-base">accessible_forward</span>
+                        <span>{data.badge}</span>
+                    </div>
+                    <p className="text-lg leading-relaxed text-slate-600 sm:text-xl">
+                        {data.description}
+                    </p>
+
+                    <div className="mt-6 flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+                        <a
+                            href="https://youtu.be/xbn5IdLhSnA"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center justify-center gap-2 self-start rounded-xl border border-slate-200 bg-white px-6 py-3 font-bold text-slate-900 transition-colors hover:bg-slate-50"
+                            aria-label="Watch wheelchair taxi hydraulic lift demo video"
+                        >
+                            <span className="material-symbols-outlined text-primary">
+                                {data.ctaSecondary.icon}
+                            </span>
+                            {data.ctaSecondary.label}
+                        </a>
+
+                        <div className="flex flex-wrap gap-x-6 gap-y-3 text-slate-500">
+                            {data.trustBadges.map((badge) => (
+                                <div key={badge.label} className="flex items-center gap-2">
+                                    <span className="material-symbols-outlined text-green-500">check_circle</span>
+                                    <span className="text-sm font-medium">{badge.label}</span>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </section>
             </div>
         </header>
     );

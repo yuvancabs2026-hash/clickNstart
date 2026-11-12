@@ -4,11 +4,23 @@ import CTABanner from '@/components/CTABanner';
 import { getServicesPageData } from '@/lib/data';
 
 export const metadata: Metadata = {
-    title: 'Wheelchair Taxi Services in Bangalore',
+    title: 'Wheelchair Taxi Services in Bengaluru & Chennai',
     description:
-        'Airport transfers, hospital transport, outstation trips & package tours — all with automatic hydraulic lift. Book Click N Start\'s wheelchair accessible taxi in Bengaluru.',
+        'Explore wheelchair-accessible cab services for hospital visits, dialysis, airport transfers, city rides, and outstation travel in Bengaluru and Chennai.',
+    keywords: [
+        'wheelchair taxi services Bengaluru',
+        'wheelchair cab services Bangalore',
+        'wheelchair taxi services Chennai',
+        'hospital wheelchair cab',
+        'dialysis transport cab',
+        'accessible airport taxi',
+        'wheelchair city taxi',
+        'wheelchair outstation cab',
+        'hydraulic lift taxi service',
+        'accessible transport for patients',
+    ],
     alternates: {
-        canonical: 'https://clicknstart.in/services',
+        canonical: '/services',
     },
 };
 
@@ -18,12 +30,12 @@ const serviceSchema = {
     name: 'Wheelchair Accessible Taxi Service',
     provider: {
         '@type': 'LocalBusiness',
-        name: 'Click N Start Bengaluru',
+        name: 'Click N Start',
     },
-    areaServed: {
-        '@type': 'City',
-        name: 'Bengaluru',
-    },
+    areaServed: [
+        { '@type': 'City', name: 'Bengaluru' },
+        { '@type': 'City', name: 'Chennai' },
+    ],
     description:
         'Wheelchair accessible taxi service in Bangalore with automatic hydraulic lift — airport transfers, hospital transport, outstation trips, and event packages.',
     serviceType: 'Wheelchair Accessible Transportation',
